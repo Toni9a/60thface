@@ -1,0 +1,34 @@
+{
+  "sections": [
+    {
+      "id": "arriving",
+      "title": "Arriving",
+      "coverPhoto": "6q3a8063",
+      "photoIds": []
+    },
+    {
+      "id": "food",
+      "title": "Food",
+      "coverPhoto": "6q3a8181",
+      "photoIds": []
+    },
+    {
+      "id": "cutting-the-cake",
+      "title": "Cutting the Cake",
+      "coverPhoto": "6q3a8425",
+      "photoIds": []
+    },
+    {
+      "id": "trivia",
+      "title": "Trivia",
+      "coverPhoto": "6q3a8294",
+      "photoIds": []
+    },
+    {
+      "id": "dance-floor",
+      "title": "Dance Floor",
+      "coverPhoto": "6q3a8556",
+      "photoIds": []
+    }
+  ]
+}

@@ -19,8 +19,7 @@ export default async function HomePage() {
               className="google-photos-link"
               aria-label="View in Google Photos"
             >
-              <span className="google-photos-icon">G</span>
-              <span>View in Google</span>
+              <span>Add your own</span>
             </a>
           </div>
           <div className="hero-copy">

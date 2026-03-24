@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { getReviewData } from "../../lib/data";
 import { ReviewActions } from "./review-actions";
+import { isLocalAdminEnabled } from "../../lib/local-admin";
+import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
 export default async function ReviewPage() {
+  if (!isLocalAdminEnabled()) {
+    notFound();
+  }
   const review = await getReviewData();
 
   return (

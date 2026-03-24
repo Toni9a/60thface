@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getGalleryPageData } from "../../lib/data";
+import { GuestPhotoWall } from "../components/guest-photo-wall";
 
 export const dynamic = "force-dynamic";
 
@@ -26,25 +27,7 @@ export default async function AllPhotosPage() {
         </div>
       </section>
 
-      <section className="photo-wall">
-        {data.photos.map((photo) => (
-          <div key={photo.id} className="photo-wall-slot">
-            {photo.sectionMarker ? (
-              <div id={`moment-${photo.sectionMarker.id}`} className="section-anchor-card">
-                <p className="eyebrow">Jumped To</p>
-                <h2>{photo.sectionMarker.title}</h2>
-                <p className="panel-copy">
-                  This is the start of the {photo.sectionMarker.title.toLowerCase()} stretch in the gallery timeline.
-                </p>
-              </div>
-            ) : null}
-            <figure className="gallery-card">
-              <img src={photo.url} alt={photo.filename} />
-              <figcaption>{photo.id}</figcaption>
-            </figure>
-          </div>
-        ))}
-      </section>
+      <GuestPhotoWall photos={data.photos} />
     </main>
   );
 }

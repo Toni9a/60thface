@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getMomentPageData } from "../../../lib/data";
+import { GuestPhotoWall } from "../../components/guest-photo-wall";
 
 export const dynamic = "force-dynamic";
 
@@ -21,11 +22,7 @@ export default async function MomentPage({
       <section className="content-header">
         <p className="eyebrow">Timeline Section</p>
         <h1>{data.section.title}</h1>
-        <p className="panel-copy">
-          {data.section.photos.length > 0
-            ? `${data.section.photos.length} photos currently assigned.`
-            : "No timeline photos have been assigned to this section yet."}
-        </p>
+        <p className="panel-copy">{data.section.description ?? `${data.section.photos.length} photos currently assigned.`}</p>
         <Link href="/" className="inline-link">
           Back home
         </Link>
@@ -37,14 +34,7 @@ export default async function MomentPage({
         </section>
       ) : null}
 
-      <section className="photo-wall">
-        {data.section.photos.map((photo) => (
-          <figure key={photo.id} className="gallery-card">
-            <img src={photo.url} alt={photo.filename} />
-            <figcaption>{photo.id}</figcaption>
-          </figure>
-        ))}
-      </section>
+      <GuestPhotoWall photos={data.section.photos} />
     </main>
   );
 }

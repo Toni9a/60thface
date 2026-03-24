@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
+import { isLocalAdminEnabled } from "../../../lib/local-admin";
 
 const REPO_ROOT = path.resolve(process.cwd(), "../..");
 const SITE_PATH = path.join(REPO_ROOT, "data", "site.json");
@@ -15,6 +16,9 @@ async function writeJson(filePath: string, payload: unknown) {
 }
 
 export async function POST(request: Request) {
+  if (!isLocalAdminEnabled()) {
+    return new Response("Local admin only", { status: 403 });
+  }
   const body = (await request.json()) as {
     targetId?: string;
     photoId?: string | null;

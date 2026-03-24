@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { getUnclusteredInboxData } from "../../lib/data";
 import { UnclusteredInbox } from "./unclustered-inbox";
+import { isLocalAdminEnabled } from "../../lib/local-admin";
+import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
 export default async function UnclusteredPage() {
+  if (!isLocalAdminEnabled()) {
+    notFound();
+  }
   const data = await getUnclusteredInboxData();
 
   return (

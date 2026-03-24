@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { getCurationData } from "../../lib/data";
 import { CurationClient } from "./curation-client";
+import { isLocalAdminEnabled } from "../../lib/local-admin";
+import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
 export default async function CuratePage() {
+  if (!isLocalAdminEnabled()) {
+    notFound();
+  }
   const data = await getCurationData();
 
   return (

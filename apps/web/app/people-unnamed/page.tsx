@@ -1,10 +1,15 @@
 import Link from "next/link";
+import { notFound } from "next/navigation";
 import { getUnnamedPeopleData } from "../../lib/data";
 import { buildFaceCropUrl } from "../../lib/image-source";
+import { isLocalAdminEnabled } from "../../lib/local-admin";
 
 export const dynamic = "force-dynamic";
 
 export default async function UnnamedPeoplePage() {
+  if (!isLocalAdminEnabled()) {
+    notFound();
+  }
   const data = await getUnnamedPeopleData();
 
   return (

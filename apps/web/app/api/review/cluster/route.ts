@@ -7,6 +7,7 @@ import {
   type PeoplePayload,
   writeJson,
 } from "../../../../lib/people-store";
+import { isLocalAdminEnabled } from "../../../../lib/local-admin";
 
 const REPO_ROOT = path.resolve(process.cwd(), "../..");
 const CLUSTERS_PATH = path.join(REPO_ROOT, "data", "review", "clusters.json");
@@ -85,6 +86,9 @@ function buildSourceKey(cluster: ReviewCluster) {
 }
 
 export async function POST(request: Request) {
+  if (!isLocalAdminEnabled()) {
+    return new Response("Local admin only", { status: 403 });
+  }
   const body = (await request.json()) as {
     clusterId?: string;
     action?: string;

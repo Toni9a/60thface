@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { buildPhotoUrl } from "./image-source";
+import { isLocalAdminEnabled } from "./local-admin";
 
 const REPO_ROOT = path.resolve(process.cwd(), "../..");
 const DATA_DIR = path.join(REPO_ROOT, "data");
@@ -33,6 +34,16 @@ type SiteConfig = {
   eventTitle: string;
   heroPhotoId: string | null;
   heroCaption: string;
+};
+
+const GOOGLE_PHOTOS_URL = "https://photos.app.goo.gl/Kp7RE6Y4wH6wEXsJ8";
+
+const SECTION_DESCRIPTIONS: Record<string, string> = {
+  arriving: "The Birthday Girl makes her grand entrance",
+  food: "The scrumptious starters (and one too many drinks for some of you)",
+  trivia: "Some Teams begging for half points. Poems & Sparklers for the wonderful IB",
+  "cutting-the-cake": "Some Teams begging for half points. Poems & Sparklers for the wonderful IB",
+  "dance-floor": "Burning those calories - 60 is the new 30",
 };
 
 type ReviewSummary = {
@@ -385,12 +396,15 @@ export async function getHomepageData() {
   return {
     eventTitle: files.site.eventTitle,
     heroCaption: files.site.heroCaption,
+    googlePhotosUrl: GOOGLE_PHOTOS_URL,
+    adminEnabled: isLocalAdminEnabled(),
     photoCount: files.photos.photos.length,
     reviewSummary: files.review.summary,
     heroPhoto,
     sections: sections.map((section) => ({
       id: section.id,
       title: section.title,
+      description: SECTION_DESCRIPTIONS[section.id] ?? null,
       photoIds: section.inferredPhotoIds,
       coverPhotoId: section.coverPhoto,
       anchorHref: `/all-photos#moment-${section.id}`,
@@ -490,6 +504,8 @@ export async function getGalleryPageData() {
         ? {
             id: sectionAnchors.get(photo.id)?.id ?? "",
             title: sectionAnchors.get(photo.id)?.title ?? "",
+            description:
+              SECTION_DESCRIPTIONS[sectionAnchors.get(photo.id)?.id ?? ""] ?? "",
           }
         : null,
     })),
@@ -574,6 +590,7 @@ export async function getMomentPageData(sectionId: string) {
     section: {
       id: section.id,
       title: section.title,
+      description: SECTION_DESCRIPTIONS[section.id] ?? null,
       coverPhoto: toPhotoView(
         photoMap.get(section.coverPhoto ?? "") ??
           photoMap.get(section.inferredPhotoIds[0] ?? ""),

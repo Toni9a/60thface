@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { getPeopleAdminData } from "../../lib/data";
 import { PeopleManager } from "./people-manager";
+import { isLocalAdminEnabled } from "../../lib/local-admin";
+import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
@@ -9,6 +11,9 @@ export default async function PeoplePage({
 }: {
   searchParams?: Promise<{ search?: string }>;
 }) {
+  if (!isLocalAdminEnabled()) {
+    notFound();
+  }
   const data = await getPeopleAdminData();
   const params = (await searchParams) ?? {};
   const initialQuery = String(params.search ?? "").trim();

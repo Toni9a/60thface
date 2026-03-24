@@ -36,14 +36,27 @@ export default async function HomePage() {
             <span>People Gallery</span>
             <span className="cta-arrow">›</span>
           </Link>
-          <Link href="/label" className="hero-link hero-link-home">
-            <span>Label Faces</span>
+          <a
+            href={data.googlePhotosUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="hero-link hero-link-home"
+          >
+            <span>View In Google Photos</span>
             <span className="cta-arrow">›</span>
-          </Link>
-          <Link href="/unclustered" className="hero-link hero-link-home">
-            <span>Singles Inbox</span>
-            <span className="cta-arrow">›</span>
-          </Link>
+          </a>
+          {data.adminEnabled ? (
+            <Link href="/label" className="hero-link hero-link-home">
+              <span>Label Faces</span>
+              <span className="cta-arrow">›</span>
+            </Link>
+          ) : null}
+          {data.adminEnabled ? (
+            <Link href="/unclustered" className="hero-link hero-link-home">
+              <span>Singles Inbox</span>
+              <span className="cta-arrow">›</span>
+            </Link>
+          ) : null}
         </div>
         </div>
 
@@ -59,9 +72,7 @@ export default async function HomePage() {
               </div>
               <div className="moment-copy">
                 <span>{section.title}</span>
-                <span className="meta">
-                  {section.photoIds.length > 0 ? `${section.photoIds.length} photos in this stretch` : "Jump point ready"}
-                </span>
+                {section.description ? <span className="meta">{section.description}</span> : null}
               </div>
               <span className="moment-arrow">›</span>
             </a>
@@ -96,7 +107,7 @@ export default async function HomePage() {
         </section>
       </section>
 
-      <section className="admin-ribbon">
+      {data.adminEnabled ? <section className="admin-ribbon">
         <span>{data.photoCount} photos indexed</span>
         <span>{data.reviewSummary.clusterCount} cleanup clusters pending internal review history</span>
         <div className="hero-actions">
@@ -110,7 +121,7 @@ export default async function HomePage() {
             Edit Names
           </Link>
         </div>
-      </section>
+      </section> : null}
     </main>
   );
 }

@@ -6,8 +6,12 @@ import {
   writeJson,
 } from "../../../../lib/people-store";
 import { getPeopleAdminData } from "../../../../lib/data";
+import { isLocalAdminEnabled } from "../../../../lib/local-admin";
 
 export async function POST(request: Request) {
+  if (!isLocalAdminEnabled()) {
+    return new Response("Local admin only", { status: 403 });
+  }
   const body = (await request.json()) as {
     personId?: string;
     memberIds?: string[];

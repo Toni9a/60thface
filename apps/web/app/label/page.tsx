@@ -1,10 +1,15 @@
 import Link from "next/link";
 import { getLabelInboxData } from "../../lib/data";
 import { LabelInbox } from "./label-inbox";
+import { isLocalAdminEnabled } from "../../lib/local-admin";
+import { notFound } from "next/navigation";
 
 export const dynamic = "force-dynamic";
 
 export default async function LabelPage() {
+  if (!isLocalAdminEnabled()) {
+    notFound();
+  }
   const data = await getLabelInboxData();
 
   return (

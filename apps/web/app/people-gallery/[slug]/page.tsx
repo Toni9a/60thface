@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getPersonPageData } from "../../../lib/data";
+import { GuestPhotoWall } from "../../components/guest-photo-wall";
 
 export const dynamic = "force-dynamic";
 
@@ -32,14 +33,14 @@ export default async function PersonPage({
         </div>
       </section>
 
-      <section className="photo-wall">
-        {data.person.photos.map((photo) => (
-          <figure key={photo.id} className="gallery-card gallery-card-tall">
-            {photo.url ? <img src={photo.url} alt={photo.id} /> : null}
-            <figcaption>{photo.id}</figcaption>
-          </figure>
-        ))}
-      </section>
+      <GuestPhotoWall
+        photos={data.person.photos.filter((photo) => photo.url).map((photo) => ({
+          id: photo.id,
+          filename: photo.id,
+          url: photo.url as string,
+        }))}
+        tall
+      />
     </main>
   );
 }

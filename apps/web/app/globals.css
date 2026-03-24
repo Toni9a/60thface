@@ -398,6 +398,10 @@ img {
   border: 1px solid rgba(103, 159, 87, 0.16);
 }
 
+.gallery-card-clickable {
+  cursor: pointer;
+}
+
 .gallery-card img {
   aspect-ratio: 0.88;
 }
@@ -425,6 +429,61 @@ img {
   color: var(--brand-deep);
   font-size: clamp(1.8rem, 3vw, 2.4rem);
  }
+
+.lightbox-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 50;
+  background: rgba(16, 24, 16, 0.84);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.lightbox-stage {
+  width: min(980px, 100%);
+  max-height: 100%;
+  display: grid;
+  gap: 12px;
+}
+
+.lightbox-image-shell {
+  border-radius: 24px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.lightbox-image {
+  width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+  display: block;
+  background: #101510;
+}
+
+.lightbox-close {
+  justify-self: end;
+  border: 0;
+  border-radius: 999px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.14);
+  color: #fff;
+  font: inherit;
+  cursor: pointer;
+}
+
+.lightbox-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: #f7f6ef;
+}
+
+.lightbox-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
 .people-directory {
   display: grid;

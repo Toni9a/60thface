@@ -10,14 +10,18 @@ export default async function PeopleGalleryPage() {
   return (
     <main className="content-shell">
       <section className="content-header">
-        <p className="eyebrow">People Gallery</p>
-        <h1>Browse By Person</h1>
-        <p className="panel-copy">
-          Tap a face to see the photos currently grouped to that person.
-        </p>
-        <Link href="/" className="inline-link">
-          Back home
-        </Link>
+        <div className="content-header-top">
+          <div>
+            <p className="eyebrow">People Gallery</p>
+            <h1>Browse By Person</h1>
+            <p className="panel-copy">
+              Tap a face to see the photos currently grouped to that person.
+            </p>
+          </div>
+          <Link href="/" className="inline-link">
+            Back home
+          </Link>
+        </div>
       </section>
 
       <section className="people-directory">

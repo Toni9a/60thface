@@ -11,6 +11,18 @@ export default async function HomePage() {
     <main className="album-shell">
       <section className="landing-frame">
         <div className="hero-stage">
+          <div className="hero-topbar">
+            <a
+              href={data.googlePhotosUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="google-photos-link"
+              aria-label="View in Google Photos"
+            >
+              <span className="google-photos-icon">G</span>
+              <span>View in Google</span>
+            </a>
+          </div>
           <div className="hero-copy">
             <p className="eyebrow">Private Event Album</p>
             <h1>{data.eventTitle}</h1>
@@ -36,15 +48,6 @@ export default async function HomePage() {
             <span>People Gallery</span>
             <span className="cta-arrow">›</span>
           </Link>
-          <a
-            href={data.googlePhotosUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="hero-link hero-link-home"
-          >
-            <span>View In Google Photos</span>
-            <span className="cta-arrow">›</span>
-          </a>
           {data.adminEnabled ? (
             <Link href="/label" className="hero-link hero-link-home">
               <span>Label Faces</span>

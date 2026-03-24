@@ -94,6 +94,34 @@ img {
   color: #fffdf7;
 }
 
+.hero-topbar {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.google-photos-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  color: #fffef7;
+  font-size: 0.92rem;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.google-photos-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 999px;
+  display: grid;
+  place-items: center;
+  background: rgba(255, 255, 255, 0.18);
+  font-weight: 700;
+}
+
 .hero-copy {
   padding: 8px 12px 0;
   display: flex;
@@ -375,6 +403,13 @@ img {
 
 .content-header {
   margin-bottom: 20px;
+}
+
+.content-header-top {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
 }
 
 .content-header h1 {
@@ -840,6 +875,10 @@ img {
     padding: 4px 8px 0;
   }
 
+  .hero-topbar {
+    margin-bottom: -6px;
+  }
+
   .hero-copy h1 {
     max-width: none;
     font-size: clamp(2.9rem, 13vw, 4.2rem);
@@ -859,6 +898,10 @@ img {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 10px;
+  }
+
+  .google-photos-link span:last-child {
+    display: none;
   }
 
   .hero-link-home {
@@ -933,5 +976,9 @@ img {
   .summary-row {
     grid-template-columns: minmax(0, 1fr) 82px 90px;
     font-size: 0.94rem;
+  }
+
+  .content-header-top {
+    flex-direction: column;
   }
 }

@@ -519,19 +519,26 @@ export async function getPeopleGalleryData() {
 
   return {
     eventTitle: files.site.eventTitle,
-    people: groupedPeople.map((person) => {
-      const preview = Array.from(person.faceIds)
-        .map((faceId) => faceIndex.get(faceId))
-        .find((entry) => Boolean(entry));
+    people: groupedPeople
+      .map((person) => {
+        const preview = Array.from(person.faceIds)
+          .map((faceId) => faceIndex.get(faceId))
+          .find((entry) => Boolean(entry));
 
-      return {
-        id: person.id,
-        slug: person.slug,
-        name: person.name,
-        photoCount: person.photoIds.size,
-        preview,
-      };
-    }),
+        return {
+          id: person.id,
+          slug: person.slug,
+          name: person.name,
+          photoCount: person.photoIds.size,
+          preview,
+        };
+      })
+      .sort((left, right) => {
+        if (right.photoCount !== left.photoCount) {
+          return right.photoCount - left.photoCount;
+        }
+        return left.name.localeCompare(right.name);
+      }),
   };
 }
 

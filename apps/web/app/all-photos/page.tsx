@@ -10,15 +10,19 @@ export default async function AllPhotosPage() {
   return (
     <main className="content-shell">
       <section className="content-header">
-        <p className="eyebrow">Gallery</p>
-        <h1>All Photos</h1>
-        <p className="panel-copy">
-          {data.eventTitle} includes {data.photos.length} photos in the current local album.
-        </p>
-        <div className="hero-actions">
+        <div className="content-header-top">
+          <div>
+            <p className="eyebrow">Gallery</p>
+            <h1>All Photos</h1>
+            <p className="panel-copy">
+              {data.eventTitle} includes {data.photos.length} photos in the current album.
+            </p>
+          </div>
           <Link href="/" className="inline-link">
             Back home
           </Link>
+        </div>
+        <div className="hero-actions">
           {data.sections.map((section) => (
             <a key={section.id} href={section.anchorHref} className="inline-link">
               {section.title}

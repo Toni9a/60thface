@@ -30,7 +30,12 @@ export default async function MomentPage({
 
       {data.section.coverPhoto ? (
         <section className="cover-panel">
-          <img src={data.section.coverPhoto.url} alt={data.section.title} />
+          <img
+            src={data.section.coverPhoto.mediumUrl ?? data.section.coverPhoto.url}
+            alt={data.section.title}
+            loading="eager"
+            decoding="async"
+          />
         </section>
       ) : null}
 

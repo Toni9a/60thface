@@ -12,6 +12,7 @@ type Photo = {
   id: string;
   filename: string;
   url: string;
+  cardUrl?: string;
   sectionMarker?: Marker | null;
 };
 
@@ -80,7 +81,12 @@ export function GuestPhotoWall({
                 }
               }}
             >
-              <img src={photo.url} alt={photo.filename} />
+              <img
+                src={photo.cardUrl ?? photo.url}
+                alt={photo.filename}
+                loading="lazy"
+                decoding="async"
+              />
               <figcaption>{photo.id}</figcaption>
             </figure>
           </div>

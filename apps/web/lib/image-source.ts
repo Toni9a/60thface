@@ -35,6 +35,22 @@ export function buildPhotoUrl(photo: {
   );
 }
 
+export function buildSizedPhotoUrl(
+  photo: {
+    absolute_path: string;
+    filename: string;
+  },
+  width: number,
+  quality = 78,
+) {
+  const remoteSource = buildPublicPhotoUrl(photo.filename);
+  if (remoteSource) {
+    return `/api/image?src=${encodeURIComponent(remoteSource)}&w=${width}&q=${quality}`;
+  }
+
+  return `/api/image?path=${encodeURIComponent(photo.absolute_path)}&w=${width}&q=${quality}`;
+}
+
 export function buildFaceCropUrl(face: {
   photoPath: string;
   bbox: { top: number; right: number; bottom: number; left: number };

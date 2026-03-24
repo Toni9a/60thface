@@ -1,6 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
-import { buildPhotoUrl } from "./image-source";
+import { buildPhotoUrl, buildSizedPhotoUrl } from "./image-source";
 import { isLocalAdminEnabled } from "./local-admin";
 
 const REPO_ROOT = path.resolve(process.cwd(), "../..");
@@ -376,6 +376,9 @@ function toPhotoView(photo: PhotoRecord | undefined) {
     filename: photo.filename,
     absolutePath: photo.absolute_path,
     url: buildPhotoUrl(photo),
+    mediumUrl: buildSizedPhotoUrl(photo, 1200, 82),
+    cardUrl: buildSizedPhotoUrl(photo, 720, 76),
+    thumbUrl: buildSizedPhotoUrl(photo, 420, 72),
   };
 }
 
@@ -500,6 +503,7 @@ export async function getGalleryPageData() {
       id: photo.id,
       filename: photo.filename,
       url: buildPhotoUrl(photo),
+      cardUrl: buildSizedPhotoUrl(photo, 720, 76),
       sectionMarker: sectionAnchors.get(photo.id)
         ? {
             id: sectionAnchors.get(photo.id)?.id ?? "",
@@ -572,6 +576,7 @@ export async function getPersonPageData(slug: string) {
           return {
             id: photoId,
             url: photo ? buildPhotoUrl(photo) : null,
+            cardUrl: photo ? buildSizedPhotoUrl(photo, 900, 78) : null,
             absolutePath: photo?.absolute_path ?? null,
             face,
           };
@@ -609,6 +614,7 @@ export async function getMomentPageData(sectionId: string) {
           id: photo.id,
           filename: photo.filename,
           url: buildPhotoUrl(photo),
+          cardUrl: buildSizedPhotoUrl(photo, 720, 76),
         })),
     },
   };
@@ -641,6 +647,7 @@ export async function getCurationData() {
       filename: photo.filename,
       absolutePath: photo.absolute_path,
       url: buildPhotoUrl(photo),
+      thumbUrl: buildSizedPhotoUrl(photo, 420, 72),
     })),
   };
 }

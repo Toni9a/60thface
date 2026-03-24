@@ -36,6 +36,8 @@ export default async function PeopleGalleryPage() {
                 <img
                   src={buildFaceCropUrl(person.preview)}
                   alt={person.name}
+                  loading="lazy"
+                  decoding="async"
                 />
               ) : (
                 <div className="face-placeholder">{person.name.slice(0, 1)}</div>

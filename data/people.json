@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-03-24T00:27:23.229Z",
+  "updatedAt": "2026-03-24T18:46:49.938Z",
   "people": [
     {
       "id": "cluster-007:6q3a8305-face-2|6q3a8406-face-6|6q3a8598-face-2|6q3a8604-face-2|6q3a8605-face-5|6q3a8606-face-3|6q3a8613-face-4",
@@ -2804,67 +2804,6 @@
       ]
     },
     {
-      "id": "cluster-032:6q3a8037-face-1|6q3a8038-face-2",
-      "name": "PersonC",
-      "photoIds": [
-        "6q3a8037",
-        "6q3a8038"
-      ],
-      "faceIds": [
-        "6q3a8037-face-1",
-        "6q3a8038-face-2"
-      ],
-      "sourceClusterId": "cluster-032",
-      "sourceClusterIds": [
-        "cluster-032"
-      ],
-      "sourceClusterKeys": [
-        "cluster-032:6q3a8037-face-1|6q3a8038-face-2"
-      ]
-    },
-    {
-      "id": "cluster-015:6q3a8298-face-2|6q3a8410-face-1|6q3a8556-face-2|6q3a8574-face-4",
-      "name": "PersonC",
-      "photoIds": [
-        "6q3a8298",
-        "6q3a8410",
-        "6q3a8556",
-        "6q3a8574"
-      ],
-      "faceIds": [
-        "6q3a8298-face-2",
-        "6q3a8410-face-1",
-        "6q3a8556-face-2",
-        "6q3a8574-face-4"
-      ],
-      "sourceClusterId": "cluster-015",
-      "sourceClusterIds": [
-        "cluster-015"
-      ],
-      "sourceClusterKeys": [
-        "cluster-015:6q3a8298-face-2|6q3a8410-face-1|6q3a8556-face-2|6q3a8574-face-4"
-      ]
-    },
-    {
-      "id": "cluster-037:6q3a8148-face-2|6q3a8153-face-3",
-      "name": "PersonD",
-      "photoIds": [
-        "6q3a8148",
-        "6q3a8153"
-      ],
-      "faceIds": [
-        "6q3a8148-face-2",
-        "6q3a8153-face-3"
-      ],
-      "sourceClusterId": "cluster-037",
-      "sourceClusterIds": [
-        "cluster-037"
-      ],
-      "sourceClusterKeys": [
-        "cluster-037:6q3a8148-face-2|6q3a8153-face-3"
-      ]
-    },
-    {
       "id": "cluster-037:6q3a8602-face-1|6q3a8617-face-2",
       "name": "Remi Okeshola",
       "photoIds": [
@@ -3220,6 +3159,67 @@
       "sourceClusterIds": [],
       "sourceClusterKeys": [
         "unclustered:6q3a8471-face-4"
+      ]
+    },
+    {
+      "id": "cluster-037:6q3a8148-face-2|6q3a8153-face-3",
+      "name": "Seyi",
+      "photoIds": [
+        "6q3a8148",
+        "6q3a8153"
+      ],
+      "faceIds": [
+        "6q3a8148-face-2",
+        "6q3a8153-face-3"
+      ],
+      "sourceClusterId": "cluster-037",
+      "sourceClusterIds": [
+        "cluster-037"
+      ],
+      "sourceClusterKeys": [
+        "cluster-037:6q3a8148-face-2|6q3a8153-face-3"
+      ]
+    },
+    {
+      "id": "cluster-032:6q3a8037-face-1|6q3a8038-face-2",
+      "name": "Seyi",
+      "photoIds": [
+        "6q3a8037",
+        "6q3a8038"
+      ],
+      "faceIds": [
+        "6q3a8037-face-1",
+        "6q3a8038-face-2"
+      ],
+      "sourceClusterId": "cluster-032",
+      "sourceClusterIds": [
+        "cluster-032"
+      ],
+      "sourceClusterKeys": [
+        "cluster-032:6q3a8037-face-1|6q3a8038-face-2"
+      ]
+    },
+    {
+      "id": "cluster-015:6q3a8298-face-2|6q3a8410-face-1|6q3a8556-face-2|6q3a8574-face-4",
+      "name": "Seyi",
+      "photoIds": [
+        "6q3a8298",
+        "6q3a8410",
+        "6q3a8556",
+        "6q3a8574"
+      ],
+      "faceIds": [
+        "6q3a8298-face-2",
+        "6q3a8410-face-1",
+        "6q3a8556-face-2",
+        "6q3a8574-face-4"
+      ],
+      "sourceClusterId": "cluster-015",
+      "sourceClusterIds": [
+        "cluster-015"
+      ],
+      "sourceClusterKeys": [
+        "cluster-015:6q3a8298-face-2|6q3a8410-face-1|6q3a8556-face-2|6q3a8574-face-4"
       ]
     },
     {

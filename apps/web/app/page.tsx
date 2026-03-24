@@ -31,9 +31,10 @@ export default async function HomePage() {
           <div className="hero-photo-shell">
             {data.heroPhoto ? (
               <img
-                src={data.heroPhoto.url}
+                src={data.heroPhoto.mediumUrl ?? data.heroPhoto.url}
                 alt={data.eventTitle}
                 className="hero-photo"
+                fetchPriority="high"
               />
             ) : (
               <div className="hero-photo-placeholder">Pick a header photo in Curate</div>
@@ -68,7 +69,12 @@ export default async function HomePage() {
             <a key={section.id} href={section.anchorHref} className="moment-card">
               <div className="moment-thumb">
                 {section.coverPhoto ? (
-                  <img src={section.coverPhoto.url} alt={section.title} />
+                  <img
+                    src={section.coverPhoto.thumbUrl ?? section.coverPhoto.url}
+                    alt={section.title}
+                    loading="lazy"
+                    decoding="async"
+                  />
                 ) : (
                   <div className="moment-placeholder">{section.title}</div>
                 )}
@@ -98,6 +104,8 @@ export default async function HomePage() {
                     <img
                       src={buildFaceCropUrl(person.face)}
                       alt={person.name}
+                      loading="lazy"
+                      decoding="async"
                     />
                   ) : (
                     <div className="face-placeholder">{person.name.slice(0, 1)}</div>

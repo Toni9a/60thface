@@ -38,6 +38,7 @@ export default async function PersonPage({
           id: photo.id,
           filename: photo.id,
           url: photo.url as string,
+          cardUrl: (photo.cardUrl as string | null) ?? undefined,
         }))}
         tall
       />

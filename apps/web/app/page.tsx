@@ -1,5 +1,6 @@
 import { getHomepageData } from "../lib/data";
 import Link from "next/link";
+import { buildFaceCropUrl } from "../lib/image-source";
 
 export const dynamic = "force-dynamic";
 
@@ -26,16 +27,24 @@ export default async function HomePage() {
               <div className="hero-photo-placeholder">Pick a header photo in Curate</div>
             )}
           </div>
-          <div className="hero-actions hero-actions-home">
-            <Link href="/all-photos" className="hero-link hero-link-home">
-              <span>View All Photos</span>
-              <span className="cta-arrow">›</span>
-            </Link>
-            <Link href="/people-gallery" className="hero-link hero-link-home">
-              <span>People Gallery</span>
-              <span className="cta-arrow">›</span>
-            </Link>
-          </div>
+        <div className="hero-actions hero-actions-home">
+          <Link href="/all-photos" className="hero-link hero-link-home">
+            <span>View All Photos</span>
+            <span className="cta-arrow">›</span>
+          </Link>
+          <Link href="/people-gallery" className="hero-link hero-link-home">
+            <span>People Gallery</span>
+            <span className="cta-arrow">›</span>
+          </Link>
+          <Link href="/label" className="hero-link hero-link-home">
+            <span>Label Faces</span>
+            <span className="cta-arrow">›</span>
+          </Link>
+          <Link href="/unclustered" className="hero-link hero-link-home">
+            <span>Singles Inbox</span>
+            <span className="cta-arrow">›</span>
+          </Link>
+        </div>
         </div>
 
         <div className="quick-links">
@@ -73,9 +82,7 @@ export default async function HomePage() {
                 <div className="face-pill-photo">
                   {person.face ? (
                     <img
-                      src={`/api/face-crop?path=${encodeURIComponent(
-                        person.face.photoPath,
-                      )}&top=${person.face.bbox.top}&right=${person.face.bbox.right}&bottom=${person.face.bbox.bottom}&left=${person.face.bbox.left}`}
+                      src={buildFaceCropUrl(person.face)}
                       alt={person.name}
                     />
                   ) : (

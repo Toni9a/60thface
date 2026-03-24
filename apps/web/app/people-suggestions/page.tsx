@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getPeopleSuggestionsData } from "../../lib/data";
+import { buildFaceCropUrl } from "../../lib/image-source";
 
 export const dynamic = "force-dynamic";
 
@@ -67,9 +68,7 @@ export default async function PeopleSuggestionsPage() {
                     <figure key={face.faceId} className="thumb-card">
                       <div className="thumb-frame">
                         <img
-                          src={`/api/face-crop?path=${encodeURIComponent(
-                            face.photoPath,
-                          )}&top=${face.bbox.top}&right=${face.bbox.right}&bottom=${face.bbox.bottom}&left=${face.bbox.left}`}
+                          src={buildFaceCropUrl(face)}
                           alt={face.photoId}
                         />
                       </div>
@@ -96,9 +95,7 @@ export default async function PeopleSuggestionsPage() {
                     <figure key={face.faceId} className="thumb-card">
                       <div className="thumb-frame">
                         <img
-                          src={`/api/face-crop?path=${encodeURIComponent(
-                            face.photoPath,
-                          )}&top=${face.bbox.top}&right=${face.bbox.right}&bottom=${face.bbox.bottom}&left=${face.bbox.left}`}
+                          src={buildFaceCropUrl(face)}
                           alt={face.photoId}
                         />
                       </div>

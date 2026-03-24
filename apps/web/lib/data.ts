@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { buildPhotoUrl } from "./image-source";
 
 const REPO_ROOT = path.resolve(process.cwd(), "../..");
 const DATA_DIR = path.join(REPO_ROOT, "data");
@@ -55,6 +56,8 @@ type ReviewCluster = {
   faces: Array<{
     id: string;
     photoId: string;
+    photoPath: string;
+    bbox: { top: number; right: number; bottom: number; left: number };
     thumbnailPath: string | null;
   }>;
   review: {
@@ -81,6 +84,57 @@ function slugify(value: string) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
+}
+
+function sortPeopleForHomepage<
+  T extends {
+    name: string;
+  },
+>(people: T[]) {
+  const preferredOrder = ["ib", "remi", "tobi", "tayo", "temi", "gbone", "marlene"];
+
+  function score(name: string) {
+    const normalized = name.trim().toLowerCase();
+    const matchIndex = preferredOrder.findIndex(
+      (preferred) =>
+        normalized === preferred ||
+        normalized.startsWith(`${preferred} `) ||
+        normalized.includes(preferred),
+    );
+    return matchIndex === -1 ? Number.MAX_SAFE_INTEGER : matchIndex;
+  }
+
+  return [...people].sort((left, right) => {
+    const leftScore = score(left.name);
+    const rightScore = score(right.name);
+    if (leftScore !== rightScore) {
+      return leftScore - rightScore;
+    }
+    return left.name.localeCompare(right.name);
+  });
+}
+
+function isUnnamedPerson(name: string) {
+  const normalized = name.trim().toLowerCase();
+  return (
+    normalized.startsWith("person") ||
+    normalized.startsWith("perz") ||
+    normalized.startsWith("pers") ||
+    normalized === "unknown" ||
+    normalized === "unnamed"
+  );
+}
+
+function isNeedsReviewPerson(person: {
+  name: string;
+  photoIds: string[];
+  memberIds: string[];
+}) {
+  return (
+    isUnnamedPerson(person.name) ||
+    person.photoIds.length <= 3 ||
+    person.memberIds.length > 1
+  );
 }
 
 async function readJsonFile<T>(filePath: string): Promise<T> {
@@ -310,7 +364,7 @@ function toPhotoView(photo: PhotoRecord | undefined) {
     id: photo.id,
     filename: photo.filename,
     absolutePath: photo.absolute_path,
-    url: `/api/local-image?path=${encodeURIComponent(photo.absolute_path)}`,
+    url: buildPhotoUrl(photo),
   };
 }
 
@@ -345,7 +399,7 @@ export async function getHomepageData() {
           photoMap.get(section.inferredPhotoIds[0] ?? ""),
       ),
     })),
-    featuredPeople: groupedPeople.slice(0, 8).map((person) => {
+    featuredPeople: sortPeopleForHomepage(groupedPeople).slice(0, 8).map((person) => {
       const face = Array.from(person.faceIds)
         .map((faceId) => faceIndex.get(faceId))
         .find((entry) => Boolean(entry));
@@ -431,7 +485,7 @@ export async function getGalleryPageData() {
     photos: files.photos.photos.map((photo) => ({
       id: photo.id,
       filename: photo.filename,
-      url: `/api/local-image?path=${encodeURIComponent(photo.absolute_path)}`,
+      url: buildPhotoUrl(photo),
       sectionMarker: sectionAnchors.get(photo.id)
         ? {
             id: sectionAnchors.get(photo.id)?.id ?? "",
@@ -494,9 +548,7 @@ export async function getPersonPageData(slug: string) {
 
           return {
             id: photoId,
-            url: photo
-              ? `/api/local-image?path=${encodeURIComponent(photo.absolute_path)}`
-              : null,
+            url: photo ? buildPhotoUrl(photo) : null,
             absolutePath: photo?.absolute_path ?? null,
             face,
           };
@@ -532,7 +584,7 @@ export async function getMomentPageData(sectionId: string) {
         .map((photo) => ({
           id: photo.id,
           filename: photo.filename,
-          url: `/api/local-image?path=${encodeURIComponent(photo.absolute_path)}`,
+          url: buildPhotoUrl(photo),
         })),
     },
   };
@@ -564,7 +616,7 @@ export async function getCurationData() {
       id: photo.id,
       filename: photo.filename,
       absolutePath: photo.absolute_path,
-      url: `/api/local-image?path=${encodeURIComponent(photo.absolute_path)}`,
+      url: buildPhotoUrl(photo),
     })),
   };
 }
@@ -695,5 +747,122 @@ export async function getPeopleSuggestionsData() {
   return {
     totalPeople: groupedPeople.length,
     suggestions: suggestions.slice(0, 30),
+  };
+}
+
+export async function getUnnamedPeopleData() {
+  const data = await getPeopleAdminData();
+
+  return {
+    people: data.people.filter((person) => isNeedsReviewPerson(person)),
+  };
+}
+
+export async function getLabelInboxData() {
+  const files = await readDataFiles();
+  const groupedPeople = groupPeople(files.people.people);
+  const faceEncodings = await loadFaceEncodingIndex();
+  const pendingClusters = files.review.clusters.filter(
+    (cluster) => cluster.review.status === "pending",
+  );
+
+  const peopleCentroids = groupedPeople
+    .map((person) => {
+      const faces = Array.from(person.faceIds)
+        .map((faceId) => faceEncodings.get(faceId))
+        .filter((face): face is FaceEncodingEntry => Boolean(face));
+
+      return {
+        name: person.name,
+        centroid: averageEncoding(faces.map((face) => face.encoding)),
+      };
+    })
+    .filter((person) => person.centroid);
+
+  const queue = pendingClusters.map((cluster) => {
+    const encodings = cluster.faces
+      .map((face) => faceEncodings.get(face.id))
+      .filter((face): face is FaceEncodingEntry => Boolean(face))
+      .map((face) => face.encoding);
+    const centroid = averageEncoding(encodings);
+    const suggestions = centroid
+      ? peopleCentroids
+          .map((person) => ({
+            name: person.name,
+            distance: euclideanDistance(centroid, person.centroid as number[]),
+          }))
+          .sort((left, right) => left.distance - right.distance)
+          .slice(0, 6)
+      : [];
+
+    return {
+      id: cluster.id,
+      faceCount: cluster.faceCount,
+      photoCount: cluster.photoCount,
+      faces: cluster.faces,
+      suggestions,
+    };
+  });
+
+  return {
+    knownNames: groupedPeople.map((person) => person.name).sort((a, b) => a.localeCompare(b)),
+    queue,
+    summary: files.review.summary,
+  };
+}
+
+export async function getUnclusteredInboxData() {
+  const files = await readDataFiles();
+  const groupedPeople = groupPeople(files.people.people);
+  const faceEncodings = await loadFaceEncodingIndex();
+
+  const peopleCentroids = groupedPeople
+    .map((person) => {
+      const faces = Array.from(person.faceIds)
+        .map((faceId) => faceEncodings.get(faceId))
+        .filter((face): face is FaceEncodingEntry => Boolean(face));
+
+      return {
+        name: person.name,
+        centroid: averageEncoding(faces.map((face) => face.encoding)),
+      };
+    })
+    .filter((person) => person.centroid);
+
+  const faces = (files.review as {
+    summary: ReviewSummary;
+    clusters: ReviewCluster[];
+    unclusteredFaces?: Array<{
+      id: string;
+      photoId: string;
+      photoPath: string;
+      bbox: { top: number; right: number; bottom: number; left: number };
+      thumbnailPath: string | null;
+    }>;
+  }).unclusteredFaces ?? [];
+
+  return {
+    summary: files.review.summary,
+    knownNames: groupedPeople.map((person) => person.name).sort((a, b) => a.localeCompare(b)),
+    faces: faces.map((face) => {
+      const encodingEntry = faceEncodings.get(face.id);
+      const suggestions = encodingEntry
+        ? peopleCentroids
+            .map((person) => ({
+              name: person.name,
+              distance: euclideanDistance(
+                encodingEntry.encoding,
+                person.centroid as number[],
+              ),
+            }))
+            .sort((left, right) => left.distance - right.distance)
+            .slice(0, 6)
+        : [];
+
+      return {
+        ...face,
+        suggestions,
+      };
+    }),
   };
 }

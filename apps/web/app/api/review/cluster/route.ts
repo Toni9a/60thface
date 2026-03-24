@@ -57,6 +57,29 @@ type ClustersPayload = {
   }>;
 };
 
+function appendPersonRecord(
+  peoplePayload: PeoplePayload,
+  payload: {
+    id: string;
+    name: string;
+    photoIds: string[];
+    faceIds: string[];
+    sourceClusterId?: string;
+    sourceClusterIds?: string[];
+    sourceClusterKeys?: string[];
+  },
+) {
+  peoplePayload.people.push({
+    id: payload.id,
+    name: payload.name,
+    photoIds: payload.photoIds,
+    faceIds: payload.faceIds,
+    sourceClusterId: payload.sourceClusterId,
+    sourceClusterIds: payload.sourceClusterIds,
+    sourceClusterKeys: payload.sourceClusterKeys,
+  });
+}
+
 function buildSourceKey(cluster: ReviewCluster) {
   return `${cluster.id}:${cluster.faces.map((face) => face.id).sort().join("|")}`;
 }
@@ -67,22 +90,30 @@ export async function POST(request: Request) {
     action?: string;
     label?: string;
     faceId?: string;
+    unclusteredFaceId?: string;
   };
   const clusterId = String(body.clusterId ?? "").trim();
   const action = String(body.action ?? "").trim();
   const label = String(body.label ?? "").trim();
   const faceId = String(body.faceId ?? "").trim();
+  const unclusteredFaceId = String(body.unclusteredFaceId ?? "").trim();
 
-  if (!clusterId) {
-    return new Response("Missing cluster id", { status: 400 });
+  if (!clusterId && !unclusteredFaceId) {
+    return new Response("Missing review target", { status: 400 });
   }
 
-  if (action !== "approve" && action !== "not-face" && action !== "remove-face") {
+  if (
+    action !== "approve" &&
+    action !== "not-face" &&
+    action !== "remove-face" &&
+    action !== "approve-unclustered" &&
+    action !== "reject-unclustered"
+  ) {
     return new Response("Unsupported action", { status: 400 });
   }
 
-  if (action === "approve" && !label) {
-    return new Response("Name is required to approve a cluster", { status: 400 });
+  if ((action === "approve" || action === "approve-unclustered") && !label) {
+    return new Response("Name is required to approve this face", { status: 400 });
   }
 
   if (action === "remove-face" && !faceId) {
@@ -93,6 +124,56 @@ export async function POST(request: Request) {
     readJson<ClustersPayload>(CLUSTERS_PATH),
     readJson<PeoplePayload>(PEOPLE_PATH),
   ]);
+
+  if (action === "approve-unclustered" || action === "reject-unclustered") {
+    const unclusteredFace = (clustersPayload.unclusteredFaces ?? []).find(
+      (entry) => entry.id === unclusteredFaceId,
+    );
+
+    if (!unclusteredFace) {
+      return new Response("Unclustered face not found", { status: 404 });
+    }
+
+    if (action === "approve-unclustered") {
+      const sourceKey = `unclustered:${unclusteredFace.id}`;
+      appendPersonRecord(peoplePayload, {
+        id: sourceKey,
+        name: label,
+        photoIds: [unclusteredFace.photoId],
+        faceIds: [unclusteredFace.id],
+        sourceClusterIds: [],
+        sourceClusterKeys: [sourceKey],
+      });
+
+      await appendPeopleLog(peoplePayload, {
+        action: "approve-unclustered-face",
+        faceId: unclusteredFace.id,
+        label,
+        photoId: unclusteredFace.photoId,
+      });
+    } else {
+      await appendPeopleLog(peoplePayload, {
+        action: "reject-unclustered-face",
+        faceId: unclusteredFace.id,
+        photoId: unclusteredFace.photoId,
+      });
+    }
+
+    clustersPayload.unclusteredFaces = (clustersPayload.unclusteredFaces ?? []).filter(
+      (entry) => entry.id !== unclusteredFaceId,
+    );
+    clustersPayload.summary.unclusteredFaceCount = clustersPayload.unclusteredFaces.length;
+    clustersPayload.generatedAt = nowIso();
+    peoplePayload.updatedAt = nowIso();
+    peoplePayload.people.sort((left, right) => left.name.localeCompare(right.name));
+
+    await Promise.all([
+      writeJson(CLUSTERS_PATH, clustersPayload),
+      writeJson(PEOPLE_PATH, peoplePayload),
+    ]);
+
+    return Response.json({ ok: true });
+  }
 
   const cluster = clustersPayload.clusters.find((entry) => entry.id === clusterId);
   if (!cluster) {
@@ -108,7 +189,7 @@ export async function POST(request: Request) {
     cluster.review.status = "approved";
     cluster.review.label = label;
     cluster.review.rejected = false;
-    peoplePayload.people.push({
+    appendPersonRecord(peoplePayload, {
       id: sourceKey,
       name: label,
       photoIds: cluster.photoIds,

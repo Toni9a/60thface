@@ -1,0 +1,6392 @@
+{
+  "generatedAt": "2026-03-23T22:21:33.879Z",
+  "sourceDirectory": "/Users/toni/galleryface/Gallery",
+  "settings": {
+    "distanceThreshold": 0.3,
+    "minClusterSize": 2,
+    "detectionModel": "hog",
+    "maxImageSize": 1600,
+    "limit": null,
+    "offset": 303,
+    "photoIdsFile": null
+  },
+  "summary": {
+    "photoCount": 202,
+    "faceCount": 392,
+    "clusterCount": 38,
+    "unclusteredFaceCount": 263,
+    "failedPhotoCount": 0
+  },
+  "clusters": [
+    {
+      "id": "cluster-001",
+      "faceCount": 11,
+      "photoCount": 11,
+      "photoIds": [
+        "6q3a8375",
+        "6q3a8414",
+        "6q3a8415",
+        "6q3a8491",
+        "6q3a8492",
+        "6q3a8493",
+        "6q3a8571",
+        "6q3a8572",
+        "6q3a8598",
+        "6q3a8600",
+        "6q3a8617"
+      ],
+      "sampleFaceIds": [
+        "6q3a8375-face-1",
+        "6q3a8414-face-1",
+        "6q3a8415-face-1",
+        "6q3a8491-face-6",
+        "6q3a8492-face-6",
+        "6q3a8493-face-2",
+        "6q3a8571-face-5",
+        "6q3a8572-face-4",
+        "6q3a8598-face-1",
+        "6q3a8600-face-1",
+        "6q3a8617-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8375-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8375-face-1.jpg",
+          "photoId": "6q3a8375"
+        },
+        {
+          "faceId": "6q3a8414-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8414-face-1.jpg",
+          "photoId": "6q3a8414"
+        },
+        {
+          "faceId": "6q3a8415-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8415-face-1.jpg",
+          "photoId": "6q3a8415"
+        },
+        {
+          "faceId": "6q3a8491-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-6.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8492-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-6.jpg",
+          "photoId": "6q3a8492"
+        },
+        {
+          "faceId": "6q3a8493-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-2.jpg",
+          "photoId": "6q3a8493"
+        },
+        {
+          "faceId": "6q3a8571-face-5",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-5.jpg",
+          "photoId": "6q3a8571"
+        },
+        {
+          "faceId": "6q3a8572-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8572-face-4.jpg",
+          "photoId": "6q3a8572"
+        },
+        {
+          "faceId": "6q3a8598-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-1.jpg",
+          "photoId": "6q3a8598"
+        },
+        {
+          "faceId": "6q3a8600-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8600-face-1.jpg",
+          "photoId": "6q3a8600"
+        },
+        {
+          "faceId": "6q3a8617-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8617-face-1.jpg",
+          "photoId": "6q3a8617"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8375-face-1",
+          "photoId": "6q3a8375",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8375.JPG",
+          "bbox": {
+            "top": 1239,
+            "right": 4343,
+            "bottom": 3570,
+            "left": 2012
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8375-face-1.jpg"
+        },
+        {
+          "id": "6q3a8414-face-1",
+          "photoId": "6q3a8414",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8414.JPG",
+          "bbox": {
+            "top": 1315,
+            "right": 3410,
+            "bottom": 2663,
+            "left": 2062
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8414-face-1.jpg"
+        },
+        {
+          "id": "6q3a8415-face-1",
+          "photoId": "6q3a8415",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8415.JPG",
+          "bbox": {
+            "top": 1966,
+            "right": 3465,
+            "bottom": 3091,
+            "left": 2339
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8415-face-1.jpg"
+        },
+        {
+          "id": "6q3a8491-face-6",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 1907,
+            "right": 5670,
+            "bottom": 2285,
+            "left": 5292
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-6.jpg"
+        },
+        {
+          "id": "6q3a8492-face-6",
+          "photoId": "6q3a8492",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+          "bbox": {
+            "top": 1743,
+            "right": 6464,
+            "bottom": 2117,
+            "left": 6086
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-6.jpg"
+        },
+        {
+          "id": "6q3a8493-face-2",
+          "photoId": "6q3a8493",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+          "bbox": {
+            "top": 2159,
+            "right": 4918,
+            "bottom": 2537,
+            "left": 4540
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-2.jpg"
+        },
+        {
+          "id": "6q3a8571-face-5",
+          "photoId": "6q3a8571",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+          "bbox": {
+            "top": 1281,
+            "right": 1714,
+            "bottom": 1932,
+            "left": 1063
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-5.jpg"
+        },
+        {
+          "id": "6q3a8572-face-4",
+          "photoId": "6q3a8572",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8572.JPG",
+          "bbox": {
+            "top": 1210,
+            "right": 1567,
+            "bottom": 1856,
+            "left": 916
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8572-face-4.jpg"
+        },
+        {
+          "id": "6q3a8598-face-1",
+          "photoId": "6q3a8598",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8598.JPG",
+          "bbox": {
+            "top": 2033,
+            "right": 819,
+            "bottom": 2411,
+            "left": 445
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-1.jpg"
+        },
+        {
+          "id": "6q3a8600-face-1",
+          "photoId": "6q3a8600",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8600.JPG",
+          "bbox": {
+            "top": 1155,
+            "right": 3830,
+            "bottom": 1533,
+            "left": 3452
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8600-face-1.jpg"
+        },
+        {
+          "id": "6q3a8617-face-1",
+          "photoId": "6q3a8617",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8617.JPG",
+          "bbox": {
+            "top": 1638,
+            "right": 2885,
+            "bottom": 2575,
+            "left": 1949
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8617-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Tobi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-002",
+      "faceCount": 8,
+      "photoCount": 8,
+      "photoIds": [
+        "6q3a8401",
+        "6q3a8402",
+        "6q3a8403",
+        "6q3a8404",
+        "6q3a8589",
+        "6q3a8590",
+        "6q3a8591",
+        "6q3a8598"
+      ],
+      "sampleFaceIds": [
+        "6q3a8401-face-1",
+        "6q3a8402-face-1",
+        "6q3a8403-face-1",
+        "6q3a8404-face-2",
+        "6q3a8589-face-1",
+        "6q3a8590-face-1",
+        "6q3a8591-face-1",
+        "6q3a8598-face-3"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8401-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8401-face-1.jpg",
+          "photoId": "6q3a8401"
+        },
+        {
+          "faceId": "6q3a8402-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8402-face-1.jpg",
+          "photoId": "6q3a8402"
+        },
+        {
+          "faceId": "6q3a8403-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8403-face-1.jpg",
+          "photoId": "6q3a8403"
+        },
+        {
+          "faceId": "6q3a8404-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8404-face-2.jpg",
+          "photoId": "6q3a8404"
+        },
+        {
+          "faceId": "6q3a8589-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8589-face-1.jpg",
+          "photoId": "6q3a8589"
+        },
+        {
+          "faceId": "6q3a8590-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8590-face-1.jpg",
+          "photoId": "6q3a8590"
+        },
+        {
+          "faceId": "6q3a8591-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8591-face-1.jpg",
+          "photoId": "6q3a8591"
+        },
+        {
+          "faceId": "6q3a8598-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-3.jpg",
+          "photoId": "6q3a8598"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8401-face-1",
+          "photoId": "6q3a8401",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8401.JPG",
+          "bbox": {
+            "top": 2087,
+            "right": 4074,
+            "bottom": 2629,
+            "left": 3532
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8401-face-1.jpg"
+        },
+        {
+          "id": "6q3a8402-face-1",
+          "photoId": "6q3a8402",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8402.JPG",
+          "bbox": {
+            "top": 1856,
+            "right": 4313,
+            "bottom": 2507,
+            "left": 3662
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8402-face-1.jpg"
+        },
+        {
+          "id": "6q3a8403-face-1",
+          "photoId": "6q3a8403",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8403.JPG",
+          "bbox": {
+            "top": 1487,
+            "right": 4738,
+            "bottom": 2029,
+            "left": 4196
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8403-face-1.jpg"
+        },
+        {
+          "id": "6q3a8404-face-2",
+          "photoId": "6q3a8404",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8404.JPG",
+          "bbox": {
+            "top": 3053,
+            "right": 1126,
+            "bottom": 3595,
+            "left": 584
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8404-face-2.jpg"
+        },
+        {
+          "id": "6q3a8589-face-1",
+          "photoId": "6q3a8589",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8589.JPG",
+          "bbox": {
+            "top": 1638,
+            "right": 3196,
+            "bottom": 2575,
+            "left": 2260
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8589-face-1.jpg"
+        },
+        {
+          "id": "6q3a8590-face-1",
+          "photoId": "6q3a8590",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8590.JPG",
+          "bbox": {
+            "top": 416,
+            "right": 4456,
+            "bottom": 1764,
+            "left": 3108
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8590-face-1.jpg"
+        },
+        {
+          "id": "6q3a8591-face-1",
+          "photoId": "6q3a8591",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8591.JPG",
+          "bbox": {
+            "top": 601,
+            "right": 4914,
+            "bottom": 2541,
+            "left": 2969
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8591-face-1.jpg"
+        },
+        {
+          "id": "6q3a8598-face-3",
+          "photoId": "6q3a8598",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8598.JPG",
+          "bbox": {
+            "top": 2113,
+            "right": 2390,
+            "bottom": 2428,
+            "left": 2075
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-3.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "IB",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-003",
+      "faceCount": 7,
+      "photoCount": 7,
+      "photoIds": [
+        "6q3a8484",
+        "6q3a8485",
+        "6q3a8486",
+        "6q3a8489",
+        "6q3a8491",
+        "6q3a8492",
+        "6q3a8493"
+      ],
+      "sampleFaceIds": [
+        "6q3a8484-face-1",
+        "6q3a8485-face-3",
+        "6q3a8486-face-3",
+        "6q3a8489-face-4",
+        "6q3a8491-face-3",
+        "6q3a8492-face-3",
+        "6q3a8493-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8484-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8484-face-1.jpg",
+          "photoId": "6q3a8484"
+        },
+        {
+          "faceId": "6q3a8485-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8485-face-3.jpg",
+          "photoId": "6q3a8485"
+        },
+        {
+          "faceId": "6q3a8486-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-3.jpg",
+          "photoId": "6q3a8486"
+        },
+        {
+          "faceId": "6q3a8489-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-4.jpg",
+          "photoId": "6q3a8489"
+        },
+        {
+          "faceId": "6q3a8491-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-3.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8492-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-3.jpg",
+          "photoId": "6q3a8492"
+        },
+        {
+          "faceId": "6q3a8493-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-4.jpg",
+          "photoId": "6q3a8493"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8484-face-1",
+          "photoId": "6q3a8484",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8484.JPG",
+          "bbox": {
+            "top": 1798,
+            "right": 1903,
+            "bottom": 2113,
+            "left": 1588
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8484-face-1.jpg"
+        },
+        {
+          "id": "6q3a8485-face-3",
+          "photoId": "6q3a8485",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8485.JPG",
+          "bbox": {
+            "top": 2218,
+            "right": 1936,
+            "bottom": 2528,
+            "left": 1621
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8485-face-3.jpg"
+        },
+        {
+          "id": "6q3a8486-face-3",
+          "photoId": "6q3a8486",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8486.JPG",
+          "bbox": {
+            "top": 1659,
+            "right": 2008,
+            "bottom": 1974,
+            "left": 1693
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-3.jpg"
+        },
+        {
+          "id": "6q3a8489-face-4",
+          "photoId": "6q3a8489",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+          "bbox": {
+            "top": 2079,
+            "right": 2352,
+            "bottom": 2390,
+            "left": 2041
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-4.jpg"
+        },
+        {
+          "id": "6q3a8491-face-3",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 2356,
+            "right": 2390,
+            "bottom": 2671,
+            "left": 2075
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-3.jpg"
+        },
+        {
+          "id": "6q3a8492-face-3",
+          "photoId": "6q3a8492",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+          "bbox": {
+            "top": 2180,
+            "right": 3049,
+            "bottom": 2495,
+            "left": 2738
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-3.jpg"
+        },
+        {
+          "id": "6q3a8493-face-4",
+          "photoId": "6q3a8493",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+          "bbox": {
+            "top": 2461,
+            "right": 2108,
+            "bottom": 2772,
+            "left": 1798
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Victoria",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-004",
+      "faceCount": 6,
+      "photoCount": 6,
+      "photoIds": [
+        "6q3a8406",
+        "6q3a8598",
+        "6q3a8604",
+        "6q3a8605",
+        "6q3a8606",
+        "6q3a8613"
+      ],
+      "sampleFaceIds": [
+        "6q3a8406-face-6",
+        "6q3a8598-face-2",
+        "6q3a8604-face-2",
+        "6q3a8605-face-5",
+        "6q3a8606-face-3",
+        "6q3a8613-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8406-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-6.jpg",
+          "photoId": "6q3a8406"
+        },
+        {
+          "faceId": "6q3a8598-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-2.jpg",
+          "photoId": "6q3a8598"
+        },
+        {
+          "faceId": "6q3a8604-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8604-face-2.jpg",
+          "photoId": "6q3a8604"
+        },
+        {
+          "faceId": "6q3a8605-face-5",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-5.jpg",
+          "photoId": "6q3a8605"
+        },
+        {
+          "faceId": "6q3a8606-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-3.jpg",
+          "photoId": "6q3a8606"
+        },
+        {
+          "faceId": "6q3a8613-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8613-face-4.jpg",
+          "photoId": "6q3a8613"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8406-face-6",
+          "photoId": "6q3a8406",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8406.JPG",
+          "bbox": {
+            "top": 1491,
+            "right": 634,
+            "bottom": 1940,
+            "left": 185
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-6.jpg"
+        },
+        {
+          "id": "6q3a8598-face-2",
+          "photoId": "6q3a8598",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8598.JPG",
+          "bbox": {
+            "top": 1903,
+            "right": 2911,
+            "bottom": 2218,
+            "left": 2600
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-2.jpg"
+        },
+        {
+          "id": "6q3a8604-face-2",
+          "photoId": "6q3a8604",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8604.JPG",
+          "bbox": {
+            "top": 1205,
+            "right": 2285,
+            "bottom": 1520,
+            "left": 1970
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8604-face-2.jpg"
+        },
+        {
+          "id": "6q3a8605-face-5",
+          "photoId": "6q3a8605",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8605.JPG",
+          "bbox": {
+            "top": 1848,
+            "right": 4196,
+            "bottom": 2108,
+            "left": 3935
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-5.jpg"
+        },
+        {
+          "id": "6q3a8606-face-3",
+          "photoId": "6q3a8606",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8606.JPG",
+          "bbox": {
+            "top": 2251,
+            "right": 3381,
+            "bottom": 2516,
+            "left": 3121
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-3.jpg"
+        },
+        {
+          "id": "6q3a8613-face-4",
+          "photoId": "6q3a8613",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8613.JPG",
+          "bbox": {
+            "top": 1449,
+            "right": 5783,
+            "bottom": 2230,
+            "left": 5002
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8613-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-005",
+      "faceCount": 6,
+      "photoCount": 6,
+      "photoIds": [
+        "6q3a8466",
+        "6q3a8467",
+        "6q3a8468",
+        "6q3a8469",
+        "6q3a8470",
+        "6q3a8471"
+      ],
+      "sampleFaceIds": [
+        "6q3a8466-face-3",
+        "6q3a8467-face-6",
+        "6q3a8468-face-4",
+        "6q3a8469-face-4",
+        "6q3a8470-face-3",
+        "6q3a8471-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8466-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-3.jpg",
+          "photoId": "6q3a8466"
+        },
+        {
+          "faceId": "6q3a8467-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-6.jpg",
+          "photoId": "6q3a8467"
+        },
+        {
+          "faceId": "6q3a8468-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-4.jpg",
+          "photoId": "6q3a8468"
+        },
+        {
+          "faceId": "6q3a8469-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-4.jpg",
+          "photoId": "6q3a8469"
+        },
+        {
+          "faceId": "6q3a8470-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-3.jpg",
+          "photoId": "6q3a8470"
+        },
+        {
+          "faceId": "6q3a8471-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-1.jpg",
+          "photoId": "6q3a8471"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8466-face-3",
+          "photoId": "6q3a8466",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+          "bbox": {
+            "top": 1936,
+            "right": 5313,
+            "bottom": 2251,
+            "left": 5002
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-3.jpg"
+        },
+        {
+          "id": "6q3a8467-face-6",
+          "photoId": "6q3a8467",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+          "bbox": {
+            "top": 2079,
+            "right": 5355,
+            "bottom": 2339,
+            "left": 5095
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-6.jpg"
+        },
+        {
+          "id": "6q3a8468-face-4",
+          "photoId": "6q3a8468",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8468.JPG",
+          "bbox": {
+            "top": 2218,
+            "right": 5246,
+            "bottom": 2528,
+            "left": 4931
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-4.jpg"
+        },
+        {
+          "id": "6q3a8469-face-4",
+          "photoId": "6q3a8469",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8469.JPG",
+          "bbox": {
+            "top": 1903,
+            "right": 5523,
+            "bottom": 2218,
+            "left": 5212
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-4.jpg"
+        },
+        {
+          "id": "6q3a8470-face-3",
+          "photoId": "6q3a8470",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8470.JPG",
+          "bbox": {
+            "top": 2041,
+            "right": 5733,
+            "bottom": 2356,
+            "left": 5418
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-3.jpg"
+        },
+        {
+          "id": "6q3a8471-face-1",
+          "photoId": "6q3a8471",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8471.JPG",
+          "bbox": {
+            "top": 1974,
+            "right": 5804,
+            "bottom": 2285,
+            "left": 5489
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Kemi Oluniyi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-006",
+      "faceCount": 5,
+      "photoCount": 5,
+      "photoIds": [
+        "6q3a8486",
+        "6q3a8491",
+        "6q3a8492",
+        "6q3a8493",
+        "6q3a8574"
+      ],
+      "sampleFaceIds": [
+        "6q3a8486-face-2",
+        "6q3a8491-face-4",
+        "6q3a8492-face-4",
+        "6q3a8493-face-5",
+        "6q3a8574-face-3"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8486-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-2.jpg",
+          "photoId": "6q3a8486"
+        },
+        {
+          "faceId": "6q3a8491-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-4.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8492-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-4.jpg",
+          "photoId": "6q3a8492"
+        },
+        {
+          "faceId": "6q3a8493-face-5",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-5.jpg",
+          "photoId": "6q3a8493"
+        },
+        {
+          "faceId": "6q3a8574-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-3.jpg",
+          "photoId": "6q3a8574"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8486-face-2",
+          "photoId": "6q3a8486",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8486.JPG",
+          "bbox": {
+            "top": 1659,
+            "right": 3536,
+            "bottom": 1974,
+            "left": 3226
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-2.jpg"
+        },
+        {
+          "id": "6q3a8491-face-4",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 2251,
+            "right": 3675,
+            "bottom": 2516,
+            "left": 3410
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-4.jpg"
+        },
+        {
+          "id": "6q3a8492-face-4",
+          "photoId": "6q3a8492",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+          "bbox": {
+            "top": 2079,
+            "right": 4444,
+            "bottom": 2390,
+            "left": 4129
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-4.jpg"
+        },
+        {
+          "id": "6q3a8493-face-5",
+          "photoId": "6q3a8493",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+          "bbox": {
+            "top": 2335,
+            "right": 3276,
+            "bottom": 2554,
+            "left": 3058
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-5.jpg"
+        },
+        {
+          "id": "6q3a8574-face-3",
+          "photoId": "6q3a8574",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+          "bbox": {
+            "top": 1562,
+            "right": 2020,
+            "bottom": 1781,
+            "left": 1802
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-3.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Jessica",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-007",
+      "faceCount": 5,
+      "photoCount": 5,
+      "photoIds": [
+        "6q3a8489",
+        "6q3a8491",
+        "6q3a8492",
+        "6q3a8493",
+        "6q3a8571"
+      ],
+      "sampleFaceIds": [
+        "6q3a8489-face-1",
+        "6q3a8491-face-2",
+        "6q3a8492-face-2",
+        "6q3a8493-face-1",
+        "6q3a8571-face-3"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8489-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-1.jpg",
+          "photoId": "6q3a8489"
+        },
+        {
+          "faceId": "6q3a8491-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-2.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8492-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-2.jpg",
+          "photoId": "6q3a8492"
+        },
+        {
+          "faceId": "6q3a8493-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-1.jpg",
+          "photoId": "6q3a8493"
+        },
+        {
+          "faceId": "6q3a8571-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-3.jpg",
+          "photoId": "6q3a8571"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8489-face-1",
+          "photoId": "6q3a8489",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+          "bbox": {
+            "top": 2079,
+            "right": 4826,
+            "bottom": 2390,
+            "left": 4515
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-1.jpg"
+        },
+        {
+          "id": "6q3a8491-face-2",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 2285,
+            "right": 4864,
+            "bottom": 2600,
+            "left": 4549
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-2.jpg"
+        },
+        {
+          "id": "6q3a8492-face-2",
+          "photoId": "6q3a8492",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+          "bbox": {
+            "top": 2075,
+            "right": 5712,
+            "bottom": 2453,
+            "left": 5334
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-2.jpg"
+        },
+        {
+          "id": "6q3a8493-face-1",
+          "photoId": "6q3a8493",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+          "bbox": {
+            "top": 2428,
+            "right": 4271,
+            "bottom": 2738,
+            "left": 3956
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-1.jpg"
+        },
+        {
+          "id": "6q3a8571-face-3",
+          "photoId": "6q3a8571",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+          "bbox": {
+            "top": 1907,
+            "right": 5099,
+            "bottom": 2449,
+            "left": 4557
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-3.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Temi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-008",
+      "faceCount": 5,
+      "photoCount": 5,
+      "photoIds": [
+        "6q3a8491",
+        "6q3a8492",
+        "6q3a8493",
+        "6q3a8513",
+        "6q3a8571"
+      ],
+      "sampleFaceIds": [
+        "6q3a8491-face-5",
+        "6q3a8492-face-5",
+        "6q3a8493-face-3",
+        "6q3a8513-face-1",
+        "6q3a8571-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8491-face-5",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-5.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8492-face-5",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-5.jpg",
+          "photoId": "6q3a8492"
+        },
+        {
+          "faceId": "6q3a8493-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-3.jpg",
+          "photoId": "6q3a8493"
+        },
+        {
+          "faceId": "6q3a8513-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8513-face-1.jpg",
+          "photoId": "6q3a8513"
+        },
+        {
+          "faceId": "6q3a8571-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-2.jpg",
+          "photoId": "6q3a8571"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8491-face-5",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 2285,
+            "right": 4271,
+            "bottom": 2600,
+            "left": 3956
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-5.jpg"
+        },
+        {
+          "id": "6q3a8492-face-5",
+          "photoId": "6q3a8492",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+          "bbox": {
+            "top": 2113,
+            "right": 5002,
+            "bottom": 2428,
+            "left": 4687
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-5.jpg"
+        },
+        {
+          "id": "6q3a8493-face-3",
+          "photoId": "6q3a8493",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+          "bbox": {
+            "top": 2323,
+            "right": 3746,
+            "bottom": 2633,
+            "left": 3436
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-3.jpg"
+        },
+        {
+          "id": "6q3a8513-face-1",
+          "photoId": "6q3a8513",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8513.JPG",
+          "bbox": {
+            "top": 2449,
+            "right": 3952,
+            "bottom": 2990,
+            "left": 3410
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8513-face-1.jpg"
+        },
+        {
+          "id": "6q3a8571-face-2",
+          "photoId": "6q3a8571",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+          "bbox": {
+            "top": 1840,
+            "right": 4246,
+            "bottom": 2293,
+            "left": 3793
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Tayo",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-009",
+      "faceCount": 4,
+      "photoCount": 4,
+      "photoIds": [
+        "6q3a8462",
+        "6q3a8463",
+        "6q3a8464",
+        "6q3a8470"
+      ],
+      "sampleFaceIds": [
+        "6q3a8462-face-2",
+        "6q3a8463-face-3",
+        "6q3a8464-face-1",
+        "6q3a8470-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8462-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8462-face-2.jpg",
+          "photoId": "6q3a8462"
+        },
+        {
+          "faceId": "6q3a8463-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8463-face-3.jpg",
+          "photoId": "6q3a8463"
+        },
+        {
+          "faceId": "6q3a8464-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-1.jpg",
+          "photoId": "6q3a8464"
+        },
+        {
+          "faceId": "6q3a8470-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-4.jpg",
+          "photoId": "6q3a8470"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8462-face-2",
+          "photoId": "6q3a8462",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8462.JPG",
+          "bbox": {
+            "top": 2192,
+            "right": 4998,
+            "bottom": 2642,
+            "left": 4549
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8462-face-2.jpg"
+        },
+        {
+          "id": "6q3a8463-face-3",
+          "photoId": "6q3a8463",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8463.JPG",
+          "bbox": {
+            "top": 1974,
+            "right": 4687,
+            "bottom": 2285,
+            "left": 4376
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8463-face-3.jpg"
+        },
+        {
+          "id": "6q3a8464-face-1",
+          "photoId": "6q3a8464",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8464.JPG",
+          "bbox": {
+            "top": 2146,
+            "right": 4582,
+            "bottom": 2461,
+            "left": 4271
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-1.jpg"
+        },
+        {
+          "id": "6q3a8470-face-4",
+          "photoId": "6q3a8470",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8470.JPG",
+          "bbox": {
+            "top": 1991,
+            "right": 4049,
+            "bottom": 2251,
+            "left": 3788
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-010",
+      "faceCount": 4,
+      "photoCount": 4,
+      "photoIds": [
+        "6q3a8466",
+        "6q3a8467",
+        "6q3a8470",
+        "6q3a8471"
+      ],
+      "sampleFaceIds": [
+        "6q3a8466-face-2",
+        "6q3a8467-face-2",
+        "6q3a8470-face-2",
+        "6q3a8471-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8466-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-2.jpg",
+          "photoId": "6q3a8466"
+        },
+        {
+          "faceId": "6q3a8467-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-2.jpg",
+          "photoId": "6q3a8467"
+        },
+        {
+          "faceId": "6q3a8470-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-2.jpg",
+          "photoId": "6q3a8470"
+        },
+        {
+          "faceId": "6q3a8471-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-2.jpg",
+          "photoId": "6q3a8471"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8466-face-2",
+          "photoId": "6q3a8466",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+          "bbox": {
+            "top": 2138,
+            "right": 886,
+            "bottom": 2398,
+            "left": 626
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-2.jpg"
+        },
+        {
+          "id": "6q3a8467-face-2",
+          "photoId": "6q3a8467",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+          "bbox": {
+            "top": 2050,
+            "right": 1205,
+            "bottom": 2310,
+            "left": 945
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-2.jpg"
+        },
+        {
+          "id": "6q3a8470-face-2",
+          "photoId": "6q3a8470",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8470.JPG",
+          "bbox": {
+            "top": 2020,
+            "right": 1205,
+            "bottom": 2281,
+            "left": 945
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-2.jpg"
+        },
+        {
+          "id": "6q3a8471-face-2",
+          "photoId": "6q3a8471",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8471.JPG",
+          "bbox": {
+            "top": 2020,
+            "right": 1294,
+            "bottom": 2281,
+            "left": 1033
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-011",
+      "faceCount": 4,
+      "photoCount": 4,
+      "photoIds": [
+        "6q3a8474",
+        "6q3a8491",
+        "6q3a8507",
+        "6q3a8516"
+      ],
+      "sampleFaceIds": [
+        "6q3a8474-face-1",
+        "6q3a8491-face-1",
+        "6q3a8507-face-1",
+        "6q3a8516-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8474-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8474-face-1.jpg",
+          "photoId": "6q3a8474"
+        },
+        {
+          "faceId": "6q3a8491-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-1.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8507-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8507-face-1.jpg",
+          "photoId": "6q3a8507"
+        },
+        {
+          "faceId": "6q3a8516-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8516-face-1.jpg",
+          "photoId": "6q3a8516"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8474-face-1",
+          "photoId": "6q3a8474",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8474.JPG",
+          "bbox": {
+            "top": 1726,
+            "right": 2751,
+            "bottom": 2268,
+            "left": 2209
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8474-face-1.jpg"
+        },
+        {
+          "id": "6q3a8491-face-1",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 2113,
+            "right": 3049,
+            "bottom": 2428,
+            "left": 2738
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-1.jpg"
+        },
+        {
+          "id": "6q3a8507-face-1",
+          "photoId": "6q3a8507",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8507.JPG",
+          "bbox": {
+            "top": 1848,
+            "right": 4654,
+            "bottom": 2785,
+            "left": 3717
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8507-face-1.jpg"
+        },
+        {
+          "id": "6q3a8516-face-1",
+          "photoId": "6q3a8516",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8516.JPG",
+          "bbox": {
+            "top": 1571,
+            "right": 3591,
+            "bottom": 2218,
+            "left": 2940
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8516-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "IB",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-012",
+      "faceCount": 4,
+      "photoCount": 4,
+      "photoIds": [
+        "6q3a8487",
+        "6q3a8489",
+        "6q3a8491",
+        "6q3a8492"
+      ],
+      "sampleFaceIds": [
+        "6q3a8487-face-7",
+        "6q3a8489-face-5",
+        "6q3a8491-face-7",
+        "6q3a8492-face-7"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8487-face-7",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-7.jpg",
+          "photoId": "6q3a8487"
+        },
+        {
+          "faceId": "6q3a8489-face-5",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-5.jpg",
+          "photoId": "6q3a8489"
+        },
+        {
+          "faceId": "6q3a8491-face-7",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-7.jpg",
+          "photoId": "6q3a8491"
+        },
+        {
+          "faceId": "6q3a8492-face-7",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-7.jpg",
+          "photoId": "6q3a8492"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8487-face-7",
+          "photoId": "6q3a8487",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+          "bbox": {
+            "top": 1869,
+            "right": 487,
+            "bottom": 2243,
+            "left": 109
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-7.jpg"
+        },
+        {
+          "id": "6q3a8489-face-5",
+          "photoId": "6q3a8489",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+          "bbox": {
+            "top": 1991,
+            "right": 735,
+            "bottom": 2369,
+            "left": 361
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-5.jpg"
+        },
+        {
+          "id": "6q3a8491-face-7",
+          "photoId": "6q3a8491",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+          "bbox": {
+            "top": 2327,
+            "right": 693,
+            "bottom": 2705,
+            "left": 319
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-7.jpg"
+        },
+        {
+          "id": "6q3a8492-face-7",
+          "photoId": "6q3a8492",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+          "bbox": {
+            "top": 2243,
+            "right": 1365,
+            "bottom": 2621,
+            "left": 987
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-7.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-013",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8389",
+        "6q3a8390",
+        "6q3a8392"
+      ],
+      "sampleFaceIds": [
+        "6q3a8389-face-2",
+        "6q3a8390-face-2",
+        "6q3a8392-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8389-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-2.jpg",
+          "photoId": "6q3a8389"
+        },
+        {
+          "faceId": "6q3a8390-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-2.jpg",
+          "photoId": "6q3a8390"
+        },
+        {
+          "faceId": "6q3a8392-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8392-face-1.jpg",
+          "photoId": "6q3a8392"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8389-face-2",
+          "photoId": "6q3a8389",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8389.JPG",
+          "bbox": {
+            "top": 1848,
+            "right": 2390,
+            "bottom": 2390,
+            "left": 1848
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-2.jpg"
+        },
+        {
+          "id": "6q3a8390-face-2",
+          "photoId": "6q3a8390",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8390.JPG",
+          "bbox": {
+            "top": 2751,
+            "right": 5099,
+            "bottom": 3293,
+            "left": 4557
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-2.jpg"
+        },
+        {
+          "id": "6q3a8392-face-1",
+          "photoId": "6q3a8392",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8392.JPG",
+          "bbox": {
+            "top": 2390,
+            "right": 1063,
+            "bottom": 2932,
+            "left": 521
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8392-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Lara Amusan",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-014",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8390",
+        "6q3a8550",
+        "6q3a8566"
+      ],
+      "sampleFaceIds": [
+        "6q3a8390-face-1",
+        "6q3a8550-face-1",
+        "6q3a8566-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8390-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-1.jpg",
+          "photoId": "6q3a8390"
+        },
+        {
+          "faceId": "6q3a8550-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8550-face-1.jpg",
+          "photoId": "6q3a8550"
+        },
+        {
+          "faceId": "6q3a8566-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-1.jpg",
+          "photoId": "6q3a8566"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8390-face-1",
+          "photoId": "6q3a8390",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8390.JPG",
+          "bbox": {
+            "top": 3087,
+            "right": 1638,
+            "bottom": 3738,
+            "left": 991
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-1.jpg"
+        },
+        {
+          "id": "6q3a8550-face-1",
+          "photoId": "6q3a8550",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8550.JPG",
+          "bbox": {
+            "top": 2579,
+            "right": 1567,
+            "bottom": 3230,
+            "left": 916
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8550-face-1.jpg"
+        },
+        {
+          "id": "6q3a8566-face-1",
+          "photoId": "6q3a8566",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8566.JPG",
+          "bbox": {
+            "top": 2268,
+            "right": 2990,
+            "bottom": 2810,
+            "left": 2449
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-015",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8394",
+        "6q3a8557",
+        "6q3a8558"
+      ],
+      "sampleFaceIds": [
+        "6q3a8394-face-1",
+        "6q3a8557-face-2",
+        "6q3a8558-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8394-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8394-face-1.jpg",
+          "photoId": "6q3a8394"
+        },
+        {
+          "faceId": "6q3a8557-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-2.jpg",
+          "photoId": "6q3a8557"
+        },
+        {
+          "faceId": "6q3a8558-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8558-face-1.jpg",
+          "photoId": "6q3a8558"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8394-face-1",
+          "photoId": "6q3a8394",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8394.JPG",
+          "bbox": {
+            "top": 1218,
+            "right": 4586,
+            "bottom": 2344,
+            "left": 3465
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8394-face-1.jpg"
+        },
+        {
+          "id": "6q3a8557-face-2",
+          "photoId": "6q3a8557",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8557.JPG",
+          "bbox": {
+            "top": 1243,
+            "right": 4305,
+            "bottom": 1554,
+            "left": 3990
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-2.jpg"
+        },
+        {
+          "id": "6q3a8558-face-1",
+          "photoId": "6q3a8558",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8558.JPG",
+          "bbox": {
+            "top": 613,
+            "right": 3923,
+            "bottom": 928,
+            "left": 3608
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8558-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-016",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8410",
+        "6q3a8556",
+        "6q3a8574"
+      ],
+      "sampleFaceIds": [
+        "6q3a8410-face-1",
+        "6q3a8556-face-2",
+        "6q3a8574-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8410-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8410-face-1.jpg",
+          "photoId": "6q3a8410"
+        },
+        {
+          "faceId": "6q3a8556-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8556-face-2.jpg",
+          "photoId": "6q3a8556"
+        },
+        {
+          "faceId": "6q3a8574-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-4.jpg",
+          "photoId": "6q3a8574"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8410-face-1",
+          "photoId": "6q3a8410",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8410.JPG",
+          "bbox": {
+            "top": 920,
+            "right": 3158,
+            "bottom": 1571,
+            "left": 2507
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8410-face-1.jpg"
+        },
+        {
+          "id": "6q3a8556-face-2",
+          "photoId": "6q3a8556",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8556.JPG",
+          "bbox": {
+            "top": 1869,
+            "right": 4339,
+            "bottom": 2180,
+            "left": 4028
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8556-face-2.jpg"
+        },
+        {
+          "id": "6q3a8574-face-4",
+          "photoId": "6q3a8574",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+          "bbox": {
+            "top": 1541,
+            "right": 5229,
+            "bottom": 1722,
+            "left": 5048
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-017",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8479",
+        "6q3a8481",
+        "6q3a8482"
+      ],
+      "sampleFaceIds": [
+        "6q3a8479-face-1",
+        "6q3a8481-face-1",
+        "6q3a8482-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8479-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-1.jpg",
+          "photoId": "6q3a8479"
+        },
+        {
+          "faceId": "6q3a8481-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-1.jpg",
+          "photoId": "6q3a8481"
+        },
+        {
+          "faceId": "6q3a8482-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-2.jpg",
+          "photoId": "6q3a8482"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8479-face-1",
+          "photoId": "6q3a8479",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8479.JPG",
+          "bbox": {
+            "top": 1785,
+            "right": 4666,
+            "bottom": 2159,
+            "left": 4288
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-1.jpg"
+        },
+        {
+          "id": "6q3a8481-face-1",
+          "photoId": "6q3a8481",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8481.JPG",
+          "bbox": {
+            "top": 2087,
+            "right": 5397,
+            "bottom": 2629,
+            "left": 4855
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-1.jpg"
+        },
+        {
+          "id": "6q3a8482-face-2",
+          "photoId": "6q3a8482",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8482.JPG",
+          "bbox": {
+            "top": 2087,
+            "right": 5699,
+            "bottom": 2629,
+            "left": 5158
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-018",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8479",
+        "6q3a8481",
+        "6q3a8482"
+      ],
+      "sampleFaceIds": [
+        "6q3a8479-face-2",
+        "6q3a8481-face-3",
+        "6q3a8482-face-3"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8479-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-2.jpg",
+          "photoId": "6q3a8479"
+        },
+        {
+          "faceId": "6q3a8481-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-3.jpg",
+          "photoId": "6q3a8481"
+        },
+        {
+          "faceId": "6q3a8482-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-3.jpg",
+          "photoId": "6q3a8482"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8479-face-2",
+          "photoId": "6q3a8479",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8479.JPG",
+          "bbox": {
+            "top": 1785,
+            "right": 3037,
+            "bottom": 2159,
+            "left": 2659
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-2.jpg"
+        },
+        {
+          "id": "6q3a8481-face-3",
+          "photoId": "6q3a8481",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8481.JPG",
+          "bbox": {
+            "top": 2087,
+            "right": 3352,
+            "bottom": 2629,
+            "left": 2810
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-3.jpg"
+        },
+        {
+          "id": "6q3a8482-face-3",
+          "photoId": "6q3a8482",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8482.JPG",
+          "bbox": {
+            "top": 2192,
+            "right": 3545,
+            "bottom": 2642,
+            "left": 3091
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-3.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "IB",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-019",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8479",
+        "6q3a8481",
+        "6q3a8482"
+      ],
+      "sampleFaceIds": [
+        "6q3a8479-face-4",
+        "6q3a8481-face-4",
+        "6q3a8482-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8479-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-4.jpg",
+          "photoId": "6q3a8479"
+        },
+        {
+          "faceId": "6q3a8481-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-4.jpg",
+          "photoId": "6q3a8481"
+        },
+        {
+          "faceId": "6q3a8482-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-4.jpg",
+          "photoId": "6q3a8482"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8479-face-4",
+          "photoId": "6q3a8479",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8479.JPG",
+          "bbox": {
+            "top": 2113,
+            "right": 3784,
+            "bottom": 2428,
+            "left": 3469
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-4.jpg"
+        },
+        {
+          "id": "6q3a8481-face-4",
+          "photoId": "6q3a8481",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8481.JPG",
+          "bbox": {
+            "top": 2537,
+            "right": 4288,
+            "bottom": 2911,
+            "left": 3914
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-4.jpg"
+        },
+        {
+          "id": "6q3a8482-face-4",
+          "photoId": "6q3a8482",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8482.JPG",
+          "bbox": {
+            "top": 2621,
+            "right": 4582,
+            "bottom": 2995,
+            "left": 4204
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Vicky",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-020",
+      "faceCount": 3,
+      "photoCount": 3,
+      "photoIds": [
+        "6q3a8557",
+        "6q3a8558",
+        "6q3a8605"
+      ],
+      "sampleFaceIds": [
+        "6q3a8557-face-4",
+        "6q3a8558-face-2",
+        "6q3a8605-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8557-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-4.jpg",
+          "photoId": "6q3a8557"
+        },
+        {
+          "faceId": "6q3a8558-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8558-face-2.jpg",
+          "photoId": "6q3a8558"
+        },
+        {
+          "faceId": "6q3a8605-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-2.jpg",
+          "photoId": "6q3a8605"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8557-face-4",
+          "photoId": "6q3a8557",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8557.JPG",
+          "bbox": {
+            "top": 1730,
+            "right": 5880,
+            "bottom": 1991,
+            "left": 5620
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-4.jpg"
+        },
+        {
+          "id": "6q3a8558-face-2",
+          "photoId": "6q3a8558",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8558.JPG",
+          "bbox": {
+            "top": 1100,
+            "right": 5141,
+            "bottom": 1415,
+            "left": 4826
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8558-face-2.jpg"
+        },
+        {
+          "id": "6q3a8605-face-2",
+          "photoId": "6q3a8605",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8605.JPG",
+          "bbox": {
+            "top": 2411,
+            "right": 2953,
+            "bottom": 2789,
+            "left": 2575
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-021",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8389",
+        "6q3a8550"
+      ],
+      "sampleFaceIds": [
+        "6q3a8389-face-4",
+        "6q3a8550-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8389-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-4.jpg",
+          "photoId": "6q3a8389"
+        },
+        {
+          "faceId": "6q3a8550-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8550-face-2.jpg",
+          "photoId": "6q3a8550"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8389-face-4",
+          "photoId": "6q3a8389",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8389.JPG",
+          "bbox": {
+            "top": 588,
+            "right": 5250,
+            "bottom": 1037,
+            "left": 4796
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-4.jpg"
+        },
+        {
+          "id": "6q3a8550-face-2",
+          "photoId": "6q3a8550",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8550.JPG",
+          "bbox": {
+            "top": 1491,
+            "right": 4922,
+            "bottom": 1705,
+            "left": 4704
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8550-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-022",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8390",
+        "6q3a8392"
+      ],
+      "sampleFaceIds": [
+        "6q3a8390-face-6",
+        "6q3a8392-face-3"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8390-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-6.jpg",
+          "photoId": "6q3a8390"
+        },
+        {
+          "faceId": "6q3a8392-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8392-face-3.jpg",
+          "photoId": "6q3a8392"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8390-face-6",
+          "photoId": "6q3a8390",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8390.JPG",
+          "bbox": {
+            "top": 1701,
+            "right": 6716,
+            "bottom": 2075,
+            "left": 6338
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-6.jpg"
+        },
+        {
+          "id": "6q3a8392-face-3",
+          "photoId": "6q3a8392",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8392.JPG",
+          "bbox": {
+            "top": 1365,
+            "right": 2327,
+            "bottom": 1743,
+            "left": 1949
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8392-face-3.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-023",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8395",
+        "6q3a8396"
+      ],
+      "sampleFaceIds": [
+        "6q3a8395-face-2",
+        "6q3a8396-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8395-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8395-face-2.jpg",
+          "photoId": "6q3a8395"
+        },
+        {
+          "faceId": "6q3a8396-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8396-face-1.jpg",
+          "photoId": "6q3a8396"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8395-face-2",
+          "photoId": "6q3a8395",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8395.JPG",
+          "bbox": {
+            "top": 412,
+            "right": 6623,
+            "bottom": 1063,
+            "left": 5972
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8395-face-2.jpg"
+        },
+        {
+          "id": "6q3a8396-face-1",
+          "photoId": "6q3a8396",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8396.JPG",
+          "bbox": {
+            "top": 848,
+            "right": 6334,
+            "bottom": 1495,
+            "left": 5687
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8396-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "rejected",
+        "label": null,
+        "notes": "Marked as not a face from the review UI.",
+        "mergeInto": null,
+        "rejected": true
+      }
+    },
+    {
+      "id": "cluster-024",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8406",
+        "6q3a8522"
+      ],
+      "sampleFaceIds": [
+        "6q3a8406-face-2",
+        "6q3a8522-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8406-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-2.jpg",
+          "photoId": "6q3a8406"
+        },
+        {
+          "faceId": "6q3a8522-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-4.jpg",
+          "photoId": "6q3a8522"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8406-face-2",
+          "photoId": "6q3a8406",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8406.JPG",
+          "bbox": {
+            "top": 1588,
+            "right": 3893,
+            "bottom": 2041,
+            "left": 3444
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-2.jpg"
+        },
+        {
+          "id": "6q3a8522-face-4",
+          "photoId": "6q3a8522",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+          "bbox": {
+            "top": 1499,
+            "right": 4687,
+            "bottom": 1760,
+            "left": 4427
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-025",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8463",
+        "6q3a8464"
+      ],
+      "sampleFaceIds": [
+        "6q3a8463-face-4",
+        "6q3a8464-face-3"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8463-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8463-face-4.jpg",
+          "photoId": "6q3a8463"
+        },
+        {
+          "faceId": "6q3a8464-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-3.jpg",
+          "photoId": "6q3a8464"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8463-face-4",
+          "photoId": "6q3a8463",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8463.JPG",
+          "bbox": {
+            "top": 2079,
+            "right": 3818,
+            "bottom": 2339,
+            "left": 3557
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8463-face-4.jpg"
+        },
+        {
+          "id": "6q3a8464-face-3",
+          "photoId": "6q3a8464",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8464.JPG",
+          "bbox": {
+            "top": 2138,
+            "right": 3759,
+            "bottom": 2398,
+            "left": 3499
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-3.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Yemisi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-026",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8467",
+        "6q3a8468"
+      ],
+      "sampleFaceIds": [
+        "6q3a8467-face-7",
+        "6q3a8468-face-6"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8467-face-7",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-7.jpg",
+          "photoId": "6q3a8467"
+        },
+        {
+          "faceId": "6q3a8468-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-6.jpg",
+          "photoId": "6q3a8468"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8467-face-7",
+          "photoId": "6q3a8467",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+          "bbox": {
+            "top": 1873,
+            "right": 1756,
+            "bottom": 2138,
+            "left": 1495
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-7.jpg"
+        },
+        {
+          "id": "6q3a8468-face-6",
+          "photoId": "6q3a8468",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8468.JPG",
+          "bbox": {
+            "top": 2008,
+            "right": 1554,
+            "bottom": 2323,
+            "left": 1239
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-6.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-027",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8468",
+        "6q3a8469"
+      ],
+      "sampleFaceIds": [
+        "6q3a8468-face-1",
+        "6q3a8469-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8468-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-1.jpg",
+          "photoId": "6q3a8468"
+        },
+        {
+          "faceId": "6q3a8469-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-2.jpg",
+          "photoId": "6q3a8469"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8468-face-1",
+          "photoId": "6q3a8468",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8468.JPG",
+          "bbox": {
+            "top": 2197,
+            "right": 4368,
+            "bottom": 2457,
+            "left": 4108
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-1.jpg"
+        },
+        {
+          "id": "6q3a8469-face-2",
+          "photoId": "6q3a8469",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8469.JPG",
+          "bbox": {
+            "top": 1932,
+            "right": 4687,
+            "bottom": 2197,
+            "left": 4427
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-028",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8473",
+        "6q3a8474"
+      ],
+      "sampleFaceIds": [
+        "6q3a8473-face-1",
+        "6q3a8474-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8473-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8473-face-1.jpg",
+          "photoId": "6q3a8473"
+        },
+        {
+          "faceId": "6q3a8474-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8474-face-2.jpg",
+          "photoId": "6q3a8474"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8473-face-1",
+          "photoId": "6q3a8473",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8473.JPG",
+          "bbox": {
+            "top": 1907,
+            "right": 2146,
+            "bottom": 2449,
+            "left": 1604
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8473-face-1.jpg"
+        },
+        {
+          "id": "6q3a8474-face-2",
+          "photoId": "6q3a8474",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8474.JPG",
+          "bbox": {
+            "top": 2293,
+            "right": 1424,
+            "bottom": 2940,
+            "left": 773
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8474-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Kemi Oluniyi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-029",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8475",
+        "6q3a8476"
+      ],
+      "sampleFaceIds": [
+        "6q3a8475-face-1",
+        "6q3a8476-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8475-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8475-face-1.jpg",
+          "photoId": "6q3a8475"
+        },
+        {
+          "faceId": "6q3a8476-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8476-face-1.jpg",
+          "photoId": "6q3a8476"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8475-face-1",
+          "photoId": "6q3a8475",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8475.JPG",
+          "bbox": {
+            "top": 1714,
+            "right": 3301,
+            "bottom": 2365,
+            "left": 2650
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8475-face-1.jpg"
+        },
+        {
+          "id": "6q3a8476-face-1",
+          "photoId": "6q3a8476",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8476.JPG",
+          "bbox": {
+            "top": 2075,
+            "right": 3520,
+            "bottom": 2726,
+            "left": 2869
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8476-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "IB",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-030",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8475",
+        "6q3a8476"
+      ],
+      "sampleFaceIds": [
+        "6q3a8475-face-2",
+        "6q3a8476-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8475-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8475-face-2.jpg",
+          "photoId": "6q3a8475"
+        },
+        {
+          "faceId": "6q3a8476-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8476-face-2.jpg",
+          "photoId": "6q3a8476"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8475-face-2",
+          "photoId": "6q3a8475",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8475.JPG",
+          "bbox": {
+            "top": 2218,
+            "right": 2797,
+            "bottom": 2869,
+            "left": 2146
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8475-face-2.jpg"
+        },
+        {
+          "id": "6q3a8476-face-2",
+          "photoId": "6q3a8476",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8476.JPG",
+          "bbox": {
+            "top": 2507,
+            "right": 3011,
+            "bottom": 3158,
+            "left": 2360
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8476-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Kemi Oluniyi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-031",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8481",
+        "6q3a8482"
+      ],
+      "sampleFaceIds": [
+        "6q3a8481-face-2",
+        "6q3a8482-face-1"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8481-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-2.jpg",
+          "photoId": "6q3a8481"
+        },
+        {
+          "faceId": "6q3a8482-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-1.jpg",
+          "photoId": "6q3a8482"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8481-face-2",
+          "photoId": "6q3a8481",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8481.JPG",
+          "bbox": {
+            "top": 2209,
+            "right": 2629,
+            "bottom": 2751,
+            "left": 2087
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8481-face-2.jpg"
+        },
+        {
+          "id": "6q3a8482-face-1",
+          "photoId": "6q3a8482",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8482.JPG",
+          "bbox": {
+            "top": 2293,
+            "right": 2843,
+            "bottom": 2743,
+            "left": 2390
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-1.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Laide Esan",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-032",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8484",
+        "6q3a8485"
+      ],
+      "sampleFaceIds": [
+        "6q3a8484-face-3",
+        "6q3a8485-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8484-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8484-face-3.jpg",
+          "photoId": "6q3a8484"
+        },
+        {
+          "faceId": "6q3a8485-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8485-face-2.jpg",
+          "photoId": "6q3a8485"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8484-face-3",
+          "photoId": "6q3a8484",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8484.JPG",
+          "bbox": {
+            "top": 1588,
+            "right": 5599,
+            "bottom": 2041,
+            "left": 5149
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8484-face-3.jpg"
+        },
+        {
+          "id": "6q3a8485-face-2",
+          "photoId": "6q3a8485",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8485.JPG",
+          "bbox": {
+            "top": 2075,
+            "right": 5082,
+            "bottom": 2453,
+            "left": 4708
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8485-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Tobi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-033",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8496",
+        "6q3a8516"
+      ],
+      "sampleFaceIds": [
+        "6q3a8496-face-1",
+        "6q3a8516-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8496-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8496-face-1.jpg",
+          "photoId": "6q3a8496"
+        },
+        {
+          "faceId": "6q3a8516-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8516-face-2.jpg",
+          "photoId": "6q3a8516"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8496-face-1",
+          "photoId": "6q3a8496",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8496.JPG",
+          "bbox": {
+            "top": 2033,
+            "right": 3914,
+            "bottom": 2411,
+            "left": 3536
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8496-face-1.jpg"
+        },
+        {
+          "id": "6q3a8516-face-2",
+          "photoId": "6q3a8516",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8516.JPG",
+          "bbox": {
+            "top": 1856,
+            "right": 4095,
+            "bottom": 2507,
+            "left": 3444
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8516-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Temi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-034",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8561",
+        "6q3a8566"
+      ],
+      "sampleFaceIds": [
+        "6q3a8561-face-4",
+        "6q3a8566-face-4"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8561-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-4.jpg",
+          "photoId": "6q3a8561"
+        },
+        {
+          "faceId": "6q3a8566-face-4",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-4.jpg",
+          "photoId": "6q3a8566"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8561-face-4",
+          "photoId": "6q3a8561",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8561.JPG",
+          "bbox": {
+            "top": 1949,
+            "right": 1655,
+            "bottom": 2327,
+            "left": 1281
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-4.jpg"
+        },
+        {
+          "id": "6q3a8566-face-4",
+          "photoId": "6q3a8566",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8566.JPG",
+          "bbox": {
+            "top": 2117,
+            "right": 4456,
+            "bottom": 2495,
+            "left": 4082
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-4.jpg"
+        }
+      ],
+      "review": {
+        "status": "pending",
+        "label": null,
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-035",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8561",
+        "6q3a8563"
+      ],
+      "sampleFaceIds": [
+        "6q3a8561-face-6",
+        "6q3a8563-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8561-face-6",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-6.jpg",
+          "photoId": "6q3a8561"
+        },
+        {
+          "faceId": "6q3a8563-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8563-face-2.jpg",
+          "photoId": "6q3a8563"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8561-face-6",
+          "photoId": "6q3a8561",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8561.JPG",
+          "bbox": {
+            "top": 1688,
+            "right": 2743,
+            "bottom": 2142,
+            "left": 2289
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-6.jpg"
+        },
+        {
+          "id": "6q3a8563-face-2",
+          "photoId": "6q3a8563",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8563.JPG",
+          "bbox": {
+            "top": 932,
+            "right": 5351,
+            "bottom": 1709,
+            "left": 4570
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8563-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Yemisi",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-036",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8589",
+        "6q3a8590"
+      ],
+      "sampleFaceIds": [
+        "6q3a8589-face-3",
+        "6q3a8590-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8589-face-3",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8589-face-3.jpg",
+          "photoId": "6q3a8589"
+        },
+        {
+          "faceId": "6q3a8590-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8590-face-2.jpg",
+          "photoId": "6q3a8590"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8589-face-3",
+          "photoId": "6q3a8589",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8589.JPG",
+          "bbox": {
+            "top": 2146,
+            "right": 1189,
+            "bottom": 2923,
+            "left": 407
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8589-face-3.jpg"
+        },
+        {
+          "id": "6q3a8590-face-2",
+          "photoId": "6q3a8590",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8590.JPG",
+          "bbox": {
+            "top": 1092,
+            "right": 1718,
+            "bottom": 2218,
+            "left": 592
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8590-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Jessica",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-037",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8602",
+        "6q3a8617"
+      ],
+      "sampleFaceIds": [
+        "6q3a8602-face-1",
+        "6q3a8617-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8602-face-1",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8602-face-1.jpg",
+          "photoId": "6q3a8602"
+        },
+        {
+          "faceId": "6q3a8617-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8617-face-2.jpg",
+          "photoId": "6q3a8617"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8602-face-1",
+          "photoId": "6q3a8602",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8602.JPG",
+          "bbox": {
+            "top": 1449,
+            "right": 4397,
+            "bottom": 2230,
+            "left": 3616
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8602-face-1.jpg"
+        },
+        {
+          "id": "6q3a8617-face-2",
+          "photoId": "6q3a8617",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8617.JPG",
+          "bbox": {
+            "top": 1886,
+            "right": 4137,
+            "bottom": 2663,
+            "left": 3356
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8617-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Remi Okeshola",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    },
+    {
+      "id": "cluster-038",
+      "faceCount": 2,
+      "photoCount": 2,
+      "photoIds": [
+        "6q3a8622",
+        "6q3a8623"
+      ],
+      "sampleFaceIds": [
+        "6q3a8622-face-2",
+        "6q3a8623-face-2"
+      ],
+      "sampleThumbnails": [
+        {
+          "faceId": "6q3a8622-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8622-face-2.jpg",
+          "photoId": "6q3a8622"
+        },
+        {
+          "faceId": "6q3a8623-face-2",
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8623-face-2.jpg",
+          "photoId": "6q3a8623"
+        }
+      ],
+      "faces": [
+        {
+          "id": "6q3a8622-face-2",
+          "photoId": "6q3a8622",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8622.JPG",
+          "bbox": {
+            "top": 1848,
+            "right": 2780,
+            "bottom": 2785,
+            "left": 1844
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8622-face-2.jpg"
+        },
+        {
+          "id": "6q3a8623-face-2",
+          "photoId": "6q3a8623",
+          "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8623.JPG",
+          "bbox": {
+            "top": 1743,
+            "right": 2780,
+            "bottom": 2680,
+            "left": 1844
+          },
+          "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8623-face-2.jpg"
+        }
+      ],
+      "review": {
+        "status": "approved",
+        "label": "Toni",
+        "notes": "",
+        "mergeInto": null,
+        "rejected": false
+      }
+    }
+  ],
+  "unclusteredFaces": [
+    {
+      "id": "6q3a8367-face-1",
+      "photoId": "6q3a8367",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8367.JPG",
+      "bbox": {
+        "top": 1848,
+        "right": 5275,
+        "bottom": 2785,
+        "left": 4343
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8367-face-1.jpg"
+    },
+    {
+      "id": "6q3a8367-face-2",
+      "photoId": "6q3a8367",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8367.JPG",
+      "bbox": {
+        "top": 2268,
+        "right": 1306,
+        "bottom": 2810,
+        "left": 764
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8367-face-2.jpg"
+    },
+    {
+      "id": "6q3a8368-face-1",
+      "photoId": "6q3a8368",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8368.JPG",
+      "bbox": {
+        "top": 2318,
+        "right": 2835,
+        "bottom": 3100,
+        "left": 2054
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8368-face-1.jpg"
+    },
+    {
+      "id": "6q3a8372-face-1",
+      "photoId": "6q3a8372",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8372.JPG",
+      "bbox": {
+        "top": 613,
+        "right": 1697,
+        "bottom": 991,
+        "left": 1323
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8372-face-1.jpg"
+    },
+    {
+      "id": "6q3a8373-face-1",
+      "photoId": "6q3a8373",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8373.JPG",
+      "bbox": {
+        "top": 1344,
+        "right": 5712,
+        "bottom": 2465,
+        "left": 4586
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8373-face-1.jpg"
+    },
+    {
+      "id": "6q3a8376-face-1",
+      "photoId": "6q3a8376",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8376.JPG",
+      "bbox": {
+        "top": 1470,
+        "right": 3646,
+        "bottom": 1730,
+        "left": 3381
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8376-face-1.jpg"
+    },
+    {
+      "id": "6q3a8376-face-2",
+      "photoId": "6q3a8376",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8376.JPG",
+      "bbox": {
+        "top": 1848,
+        "right": 3473,
+        "bottom": 2390,
+        "left": 2932
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8376-face-2.jpg"
+    },
+    {
+      "id": "6q3a8383-face-1",
+      "photoId": "6q3a8383",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8383.JPG",
+      "bbox": {
+        "top": 1029,
+        "right": 1155,
+        "bottom": 1407,
+        "left": 777
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8383-face-1.jpg"
+    },
+    {
+      "id": "6q3a8384-face-1",
+      "photoId": "6q3a8384",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8384.JPG",
+      "bbox": {
+        "top": 2327,
+        "right": 5880,
+        "bottom": 2705,
+        "left": 5502
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8384-face-1.jpg"
+    },
+    {
+      "id": "6q3a8385-face-1",
+      "photoId": "6q3a8385",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8385.JPG",
+      "bbox": {
+        "top": 470,
+        "right": 4712,
+        "bottom": 1592,
+        "left": 3587
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8385-face-1.jpg"
+    },
+    {
+      "id": "6q3a8386-face-1",
+      "photoId": "6q3a8386",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8386.JPG",
+      "bbox": {
+        "top": 1726,
+        "right": 3835,
+        "bottom": 2268,
+        "left": 3293
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8386-face-1.jpg"
+    },
+    {
+      "id": "6q3a8387-face-1",
+      "photoId": "6q3a8387",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8387.JPG",
+      "bbox": {
+        "top": 2444,
+        "right": 6720,
+        "bottom": 2894,
+        "left": 6304
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8387-face-1.jpg"
+    },
+    {
+      "id": "6q3a8387-face-2",
+      "photoId": "6q3a8387",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8387.JPG",
+      "bbox": {
+        "top": 1382,
+        "right": 2877,
+        "bottom": 1693,
+        "left": 2562
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8387-face-2.jpg"
+    },
+    {
+      "id": "6q3a8387-face-3",
+      "photoId": "6q3a8387",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8387.JPG",
+      "bbox": {
+        "top": 1730,
+        "right": 542,
+        "bottom": 2041,
+        "left": 231
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8387-face-3.jpg"
+    },
+    {
+      "id": "6q3a8389-face-1",
+      "photoId": "6q3a8389",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8389.JPG",
+      "bbox": {
+        "top": 403,
+        "right": 6363,
+        "bottom": 945,
+        "left": 5821
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-1.jpg"
+    },
+    {
+      "id": "6q3a8389-face-3",
+      "photoId": "6q3a8389",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8389.JPG",
+      "bbox": {
+        "top": 3200,
+        "right": 2054,
+        "bottom": 4137,
+        "left": 1117
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-3.jpg"
+    },
+    {
+      "id": "6q3a8389-face-5",
+      "photoId": "6q3a8389",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8389.JPG",
+      "bbox": {
+        "top": 2579,
+        "right": 1100,
+        "bottom": 3360,
+        "left": 323
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8389-face-5.jpg"
+    },
+    {
+      "id": "6q3a8390-face-3",
+      "photoId": "6q3a8390",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8390.JPG",
+      "bbox": {
+        "top": 2293,
+        "right": 1088,
+        "bottom": 2743,
+        "left": 634
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-3.jpg"
+    },
+    {
+      "id": "6q3a8390-face-4",
+      "photoId": "6q3a8390",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8390.JPG",
+      "bbox": {
+        "top": 2243,
+        "right": 2575,
+        "bottom": 2621,
+        "left": 2201
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-4.jpg"
+    },
+    {
+      "id": "6q3a8390-face-5",
+      "photoId": "6q3a8390",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8390.JPG",
+      "bbox": {
+        "top": 3301,
+        "right": 3406,
+        "bottom": 4238,
+        "left": 2470
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8390-face-5.jpg"
+    },
+    {
+      "id": "6q3a8392-face-2",
+      "photoId": "6q3a8392",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8392.JPG",
+      "bbox": {
+        "top": 1449,
+        "right": 3578,
+        "bottom": 1827,
+        "left": 3205
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8392-face-2.jpg"
+    },
+    {
+      "id": "6q3a8394-face-2",
+      "photoId": "6q3a8394",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8394.JPG",
+      "bbox": {
+        "top": 2751,
+        "right": 1361,
+        "bottom": 3532,
+        "left": 584
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8394-face-2.jpg"
+    },
+    {
+      "id": "6q3a8394-face-3",
+      "photoId": "6q3a8394",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8394.JPG",
+      "bbox": {
+        "top": 1667,
+        "right": 6661,
+        "bottom": 2209,
+        "left": 6119
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8394-face-3.jpg"
+    },
+    {
+      "id": "6q3a8395-face-1",
+      "photoId": "6q3a8395",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8395.JPG",
+      "bbox": {
+        "top": 844,
+        "right": 4087,
+        "bottom": 1966,
+        "left": 2965
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8395-face-1.jpg"
+    },
+    {
+      "id": "6q3a8397-face-1",
+      "photoId": "6q3a8397",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8397.JPG",
+      "bbox": {
+        "top": 3011,
+        "right": 3877,
+        "bottom": 3793,
+        "left": 3095
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8397-face-1.jpg"
+    },
+    {
+      "id": "6q3a8398-face-1",
+      "photoId": "6q3a8398",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8398.JPG",
+      "bbox": {
+        "top": 3112,
+        "right": 5216,
+        "bottom": 3654,
+        "left": 4675
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8398-face-1.jpg"
+    },
+    {
+      "id": "6q3a8398-face-2",
+      "photoId": "6q3a8398",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8398.JPG",
+      "bbox": {
+        "top": 3158,
+        "right": 2075,
+        "bottom": 3809,
+        "left": 1424
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8398-face-2.jpg"
+    },
+    {
+      "id": "6q3a8402-face-2",
+      "photoId": "6q3a8402",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8402.JPG",
+      "bbox": {
+        "top": 1382,
+        "right": 5313,
+        "bottom": 1693,
+        "left": 5002
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8402-face-2.jpg"
+    },
+    {
+      "id": "6q3a8402-face-3",
+      "photoId": "6q3a8402",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8402.JPG",
+      "bbox": {
+        "top": 1403,
+        "right": 3536,
+        "bottom": 1583,
+        "left": 3356
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8402-face-3.jpg"
+    },
+    {
+      "id": "6q3a8403-face-2",
+      "photoId": "6q3a8403",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8403.JPG",
+      "bbox": {
+        "top": 1890,
+        "right": 2541,
+        "bottom": 2344,
+        "left": 2087
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8403-face-2.jpg"
+    },
+    {
+      "id": "6q3a8403-face-3",
+      "photoId": "6q3a8403",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8403.JPG",
+      "bbox": {
+        "top": 1352,
+        "right": 5502,
+        "bottom": 1613,
+        "left": 5242
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8403-face-3.jpg"
+    },
+    {
+      "id": "6q3a8403-face-4",
+      "photoId": "6q3a8403",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8403.JPG",
+      "bbox": {
+        "top": 1273,
+        "right": 4003,
+        "bottom": 1491,
+        "left": 3784
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8403-face-4.jpg"
+    },
+    {
+      "id": "6q3a8404-face-1",
+      "photoId": "6q3a8404",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8404.JPG",
+      "bbox": {
+        "top": 2428,
+        "right": 1903,
+        "bottom": 2579,
+        "left": 1751
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8404-face-1.jpg"
+    },
+    {
+      "id": "6q3a8404-face-3",
+      "photoId": "6q3a8404",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8404.JPG",
+      "bbox": {
+        "top": 2344,
+        "right": 2524,
+        "bottom": 2495,
+        "left": 2373
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8404-face-3.jpg"
+    },
+    {
+      "id": "6q3a8406-face-1",
+      "photoId": "6q3a8406",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8406.JPG",
+      "bbox": {
+        "top": 1659,
+        "right": 2285,
+        "bottom": 2033,
+        "left": 1907
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-1.jpg"
+    },
+    {
+      "id": "6q3a8406-face-3",
+      "photoId": "6q3a8406",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8406.JPG",
+      "bbox": {
+        "top": 1546,
+        "right": 2087,
+        "bottom": 2087,
+        "left": 1546
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-3.jpg"
+    },
+    {
+      "id": "6q3a8406-face-4",
+      "photoId": "6q3a8406",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8406.JPG",
+      "bbox": {
+        "top": 1487,
+        "right": 4339,
+        "bottom": 1798,
+        "left": 4028
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-4.jpg"
+    },
+    {
+      "id": "6q3a8406-face-5",
+      "photoId": "6q3a8406",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8406.JPG",
+      "bbox": {
+        "top": 2386,
+        "right": 6665,
+        "bottom": 2604,
+        "left": 6447
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8406-face-5.jpg"
+    },
+    {
+      "id": "6q3a8412-face-1",
+      "photoId": "6q3a8412",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8412.JPG",
+      "bbox": {
+        "top": 1281,
+        "right": 1928,
+        "bottom": 1932,
+        "left": 1277
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8412-face-1.jpg"
+    },
+    {
+      "id": "6q3a8412-face-2",
+      "photoId": "6q3a8412",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8412.JPG",
+      "bbox": {
+        "top": 1134,
+        "right": 4528,
+        "bottom": 1785,
+        "left": 3881
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8412-face-2.jpg"
+    },
+    {
+      "id": "6q3a8413-face-1",
+      "photoId": "6q3a8413",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8413.JPG",
+      "bbox": {
+        "top": 2713,
+        "right": 3919,
+        "bottom": 2894,
+        "left": 3738
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8413-face-1.jpg"
+    },
+    {
+      "id": "6q3a8418-face-1",
+      "photoId": "6q3a8418",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8418.JPG",
+      "bbox": {
+        "top": 0,
+        "right": 5397,
+        "bottom": 559,
+        "left": 4746
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8418-face-1.jpg"
+    },
+    {
+      "id": "6q3a8422-face-1",
+      "photoId": "6q3a8422",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8422.JPG",
+      "bbox": {
+        "top": 2243,
+        "right": 2289,
+        "bottom": 2394,
+        "left": 2138
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8422-face-1.jpg"
+    },
+    {
+      "id": "6q3a8422-face-2",
+      "photoId": "6q3a8422",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8422.JPG",
+      "bbox": {
+        "top": 2293,
+        "right": 2642,
+        "bottom": 2444,
+        "left": 2491
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8422-face-2.jpg"
+    },
+    {
+      "id": "6q3a8423-face-1",
+      "photoId": "6q3a8423",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8423.JPG",
+      "bbox": {
+        "top": 2087,
+        "right": 2104,
+        "bottom": 2268,
+        "left": 1924
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8423-face-1.jpg"
+    },
+    {
+      "id": "6q3a8424-face-1",
+      "photoId": "6q3a8424",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8424.JPG",
+      "bbox": {
+        "top": 1352,
+        "right": 4456,
+        "bottom": 2003,
+        "left": 3805
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8424-face-1.jpg"
+    },
+    {
+      "id": "6q3a8432-face-1",
+      "photoId": "6q3a8432",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8432.JPG",
+      "bbox": {
+        "top": 2226,
+        "right": 1466,
+        "bottom": 2377,
+        "left": 1315
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8432-face-1.jpg"
+    },
+    {
+      "id": "6q3a8432-face-2",
+      "photoId": "6q3a8432",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8432.JPG",
+      "bbox": {
+        "top": 2528,
+        "right": 2503,
+        "bottom": 2747,
+        "left": 2285
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8432-face-2.jpg"
+    },
+    {
+      "id": "6q3a8435-face-1",
+      "photoId": "6q3a8435",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8435.JPG",
+      "bbox": {
+        "top": 718,
+        "right": 1516,
+        "bottom": 1033,
+        "left": 1205
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8435-face-1.jpg"
+    },
+    {
+      "id": "6q3a8436-face-1",
+      "photoId": "6q3a8436",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8436.JPG",
+      "bbox": {
+        "top": 1638,
+        "right": 6153,
+        "bottom": 2092,
+        "left": 5699
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8436-face-1.jpg"
+    },
+    {
+      "id": "6q3a8459-face-1",
+      "photoId": "6q3a8459",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8459.JPG",
+      "bbox": {
+        "top": 1470,
+        "right": 2339,
+        "bottom": 2591,
+        "left": 1218
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8459-face-1.jpg"
+    },
+    {
+      "id": "6q3a8462-face-1",
+      "photoId": "6q3a8462",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8462.JPG",
+      "bbox": {
+        "top": 2201,
+        "right": 2953,
+        "bottom": 2579,
+        "left": 2575
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8462-face-1.jpg"
+    },
+    {
+      "id": "6q3a8462-face-3",
+      "photoId": "6q3a8462",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8462.JPG",
+      "bbox": {
+        "top": 2444,
+        "right": 5951,
+        "bottom": 2894,
+        "left": 5502
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8462-face-3.jpg"
+    },
+    {
+      "id": "6q3a8462-face-4",
+      "photoId": "6q3a8462",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8462.JPG",
+      "bbox": {
+        "top": 2495,
+        "right": 2033,
+        "bottom": 2869,
+        "left": 1655
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8462-face-4.jpg"
+    },
+    {
+      "id": "6q3a8463-face-1",
+      "photoId": "6q3a8463",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8463.JPG",
+      "bbox": {
+        "top": 2079,
+        "right": 2948,
+        "bottom": 2339,
+        "left": 2688
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8463-face-1.jpg"
+    },
+    {
+      "id": "6q3a8463-face-2",
+      "photoId": "6q3a8463",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8463.JPG",
+      "bbox": {
+        "top": 2180,
+        "right": 5418,
+        "bottom": 2495,
+        "left": 5107
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8463-face-2.jpg"
+    },
+    {
+      "id": "6q3a8464-face-2",
+      "photoId": "6q3a8464",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8464.JPG",
+      "bbox": {
+        "top": 2239,
+        "right": 2961,
+        "bottom": 2457,
+        "left": 2747
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-2.jpg"
+    },
+    {
+      "id": "6q3a8464-face-4",
+      "photoId": "6q3a8464",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8464.JPG",
+      "bbox": {
+        "top": 2495,
+        "right": 2251,
+        "bottom": 2810,
+        "left": 1936
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-4.jpg"
+    },
+    {
+      "id": "6q3a8464-face-5",
+      "photoId": "6q3a8464",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8464.JPG",
+      "bbox": {
+        "top": 2251,
+        "right": 5628,
+        "bottom": 2566,
+        "left": 5313
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8464-face-5.jpg"
+    },
+    {
+      "id": "6q3a8465-face-1",
+      "photoId": "6q3a8465",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8465.JPG",
+      "bbox": {
+        "top": 1693,
+        "right": 4028,
+        "bottom": 2008,
+        "left": 3713
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8465-face-1.jpg"
+    },
+    {
+      "id": "6q3a8465-face-2",
+      "photoId": "6q3a8465",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8465.JPG",
+      "bbox": {
+        "top": 0,
+        "right": 2839,
+        "bottom": 1092,
+        "left": 1718
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8465-face-2.jpg"
+    },
+    {
+      "id": "6q3a8466-face-1",
+      "photoId": "6q3a8466",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+      "bbox": {
+        "top": 1961,
+        "right": 4456,
+        "bottom": 2222,
+        "left": 4196
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-1.jpg"
+    },
+    {
+      "id": "6q3a8466-face-4",
+      "photoId": "6q3a8466",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+      "bbox": {
+        "top": 2167,
+        "right": 2117,
+        "bottom": 2386,
+        "left": 1898
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-4.jpg"
+    },
+    {
+      "id": "6q3a8466-face-5",
+      "photoId": "6q3a8466",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+      "bbox": {
+        "top": 1932,
+        "right": 3847,
+        "bottom": 2197,
+        "left": 3587
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-5.jpg"
+    },
+    {
+      "id": "6q3a8466-face-6",
+      "photoId": "6q3a8466",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+      "bbox": {
+        "top": 2071,
+        "right": 2722,
+        "bottom": 2289,
+        "left": 2503
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-6.jpg"
+    },
+    {
+      "id": "6q3a8466-face-7",
+      "photoId": "6q3a8466",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8466.JPG",
+      "bbox": {
+        "top": 1995,
+        "right": 3301,
+        "bottom": 2213,
+        "left": 3083
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8466-face-7.jpg"
+    },
+    {
+      "id": "6q3a8467-face-1",
+      "photoId": "6q3a8467",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+      "bbox": {
+        "top": 2045,
+        "right": 2890,
+        "bottom": 2264,
+        "left": 2671
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-1.jpg"
+    },
+    {
+      "id": "6q3a8467-face-3",
+      "photoId": "6q3a8467",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+      "bbox": {
+        "top": 2020,
+        "right": 4544,
+        "bottom": 2281,
+        "left": 4284
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-3.jpg"
+    },
+    {
+      "id": "6q3a8467-face-4",
+      "photoId": "6q3a8467",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+      "bbox": {
+        "top": 2020,
+        "right": 3373,
+        "bottom": 2239,
+        "left": 3154
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-4.jpg"
+    },
+    {
+      "id": "6q3a8467-face-5",
+      "photoId": "6q3a8467",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8467.JPG",
+      "bbox": {
+        "top": 2071,
+        "right": 2356,
+        "bottom": 2289,
+        "left": 2142
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8467-face-5.jpg"
+    },
+    {
+      "id": "6q3a8468-face-2",
+      "photoId": "6q3a8468",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8468.JPG",
+      "bbox": {
+        "top": 2264,
+        "right": 2671,
+        "bottom": 2482,
+        "left": 2453
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-2.jpg"
+    },
+    {
+      "id": "6q3a8468-face-3",
+      "photoId": "6q3a8468",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8468.JPG",
+      "bbox": {
+        "top": 2222,
+        "right": 1004,
+        "bottom": 2486,
+        "left": 739
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-3.jpg"
+    },
+    {
+      "id": "6q3a8468-face-5",
+      "photoId": "6q3a8468",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8468.JPG",
+      "bbox": {
+        "top": 2213,
+        "right": 3255,
+        "bottom": 2432,
+        "left": 3037
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8468-face-5.jpg"
+    },
+    {
+      "id": "6q3a8469-face-1",
+      "photoId": "6q3a8469",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8469.JPG",
+      "bbox": {
+        "top": 1873,
+        "right": 3528,
+        "bottom": 2138,
+        "left": 3268
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-1.jpg"
+    },
+    {
+      "id": "6q3a8469-face-3",
+      "photoId": "6q3a8469",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8469.JPG",
+      "bbox": {
+        "top": 2050,
+        "right": 1205,
+        "bottom": 2310,
+        "left": 945
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-3.jpg"
+    },
+    {
+      "id": "6q3a8469-face-5",
+      "photoId": "6q3a8469",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8469.JPG",
+      "bbox": {
+        "top": 1835,
+        "right": 1798,
+        "bottom": 2146,
+        "left": 1483
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8469-face-5.jpg"
+    },
+    {
+      "id": "6q3a8470-face-1",
+      "photoId": "6q3a8470",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8470.JPG",
+      "bbox": {
+        "top": 2050,
+        "right": 4775,
+        "bottom": 2310,
+        "left": 4515
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-1.jpg"
+    },
+    {
+      "id": "6q3a8470-face-5",
+      "photoId": "6q3a8470",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8470.JPG",
+      "bbox": {
+        "top": 1873,
+        "right": 1785,
+        "bottom": 2138,
+        "left": 1525
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8470-face-5.jpg"
+    },
+    {
+      "id": "6q3a8471-face-3",
+      "photoId": "6q3a8471",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8471.JPG",
+      "bbox": {
+        "top": 1932,
+        "right": 4893,
+        "bottom": 2197,
+        "left": 4633
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-3.jpg"
+    },
+    {
+      "id": "6q3a8471-face-4",
+      "photoId": "6q3a8471",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8471.JPG",
+      "bbox": {
+        "top": 1848,
+        "right": 1873,
+        "bottom": 2108,
+        "left": 1613
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-4.jpg"
+    },
+    {
+      "id": "6q3a8471-face-5",
+      "photoId": "6q3a8471",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8471.JPG",
+      "bbox": {
+        "top": 2079,
+        "right": 2600,
+        "bottom": 2339,
+        "left": 2339
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8471-face-5.jpg"
+    },
+    {
+      "id": "6q3a8472-face-1",
+      "photoId": "6q3a8472",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8472.JPG",
+      "bbox": {
+        "top": 1306,
+        "right": 4255,
+        "bottom": 1848,
+        "left": 3713
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8472-face-1.jpg"
+    },
+    {
+      "id": "6q3a8472-face-2",
+      "photoId": "6q3a8472",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8472.JPG",
+      "bbox": {
+        "top": 1340,
+        "right": 3041,
+        "bottom": 1789,
+        "left": 2591
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8472-face-2.jpg"
+    },
+    {
+      "id": "6q3a8472-face-3",
+      "photoId": "6q3a8472",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8472.JPG",
+      "bbox": {
+        "top": 1428,
+        "right": 1785,
+        "bottom": 1970,
+        "left": 1243
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8472-face-3.jpg"
+    },
+    {
+      "id": "6q3a8473-face-2",
+      "photoId": "6q3a8473",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8473.JPG",
+      "bbox": {
+        "top": 1365,
+        "right": 3410,
+        "bottom": 1907,
+        "left": 2869
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8473-face-2.jpg"
+    },
+    {
+      "id": "6q3a8479-face-3",
+      "photoId": "6q3a8479",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8479.JPG",
+      "bbox": {
+        "top": 1907,
+        "right": 2449,
+        "bottom": 2285,
+        "left": 2075
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8479-face-3.jpg"
+    },
+    {
+      "id": "6q3a8482-face-5",
+      "photoId": "6q3a8482",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8482.JPG",
+      "bbox": {
+        "top": 2087,
+        "right": 1667,
+        "bottom": 2629,
+        "left": 1126
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8482-face-5.jpg"
+    },
+    {
+      "id": "6q3a8483-face-1",
+      "photoId": "6q3a8483",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8483.JPG",
+      "bbox": {
+        "top": 1289,
+        "right": 3746,
+        "bottom": 1739,
+        "left": 3293
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8483-face-1.jpg"
+    },
+    {
+      "id": "6q3a8483-face-2",
+      "photoId": "6q3a8483",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8483.JPG",
+      "bbox": {
+        "top": 1667,
+        "right": 4796,
+        "bottom": 2209,
+        "left": 4255
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8483-face-2.jpg"
+    },
+    {
+      "id": "6q3a8484-face-2",
+      "photoId": "6q3a8484",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8484.JPG",
+      "bbox": {
+        "top": 1743,
+        "right": 4582,
+        "bottom": 2117,
+        "left": 4204
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8484-face-2.jpg"
+    },
+    {
+      "id": "6q3a8485-face-1",
+      "photoId": "6q3a8485",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8485.JPG",
+      "bbox": {
+        "top": 2218,
+        "right": 4305,
+        "bottom": 2528,
+        "left": 3990
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8485-face-1.jpg"
+    },
+    {
+      "id": "6q3a8485-face-4",
+      "photoId": "6q3a8485",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8485.JPG",
+      "bbox": {
+        "top": 2356,
+        "right": 3574,
+        "bottom": 2671,
+        "left": 3259
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8485-face-4.jpg"
+    },
+    {
+      "id": "6q3a8486-face-1",
+      "photoId": "6q3a8486",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8486.JPG",
+      "bbox": {
+        "top": 1588,
+        "right": 4061,
+        "bottom": 1903,
+        "left": 3746
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-1.jpg"
+    },
+    {
+      "id": "6q3a8486-face-4",
+      "photoId": "6q3a8486",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8486.JPG",
+      "bbox": {
+        "top": 1487,
+        "right": 2843,
+        "bottom": 1798,
+        "left": 2528
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-4.jpg"
+    },
+    {
+      "id": "6q3a8486-face-5",
+      "photoId": "6q3a8486",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8486.JPG",
+      "bbox": {
+        "top": 1197,
+        "right": 1197,
+        "bottom": 1575,
+        "left": 819
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-5.jpg"
+    },
+    {
+      "id": "6q3a8486-face-6",
+      "photoId": "6q3a8486",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8486.JPG",
+      "bbox": {
+        "top": 1760,
+        "right": 2801,
+        "bottom": 2020,
+        "left": 2541
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8486-face-6.jpg"
+    },
+    {
+      "id": "6q3a8487-face-1",
+      "photoId": "6q3a8487",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 4918,
+        "bottom": 2369,
+        "left": 4540
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-1.jpg"
+    },
+    {
+      "id": "6q3a8487-face-2",
+      "photoId": "6q3a8487",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+      "bbox": {
+        "top": 2008,
+        "right": 4095,
+        "bottom": 2323,
+        "left": 3784
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-2.jpg"
+    },
+    {
+      "id": "6q3a8487-face-3",
+      "photoId": "6q3a8487",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+      "bbox": {
+        "top": 1903,
+        "right": 2843,
+        "bottom": 2218,
+        "left": 2528
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-3.jpg"
+    },
+    {
+      "id": "6q3a8487-face-4",
+      "photoId": "6q3a8487",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+      "bbox": {
+        "top": 1974,
+        "right": 2180,
+        "bottom": 2285,
+        "left": 1865
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-4.jpg"
+    },
+    {
+      "id": "6q3a8487-face-5",
+      "photoId": "6q3a8487",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+      "bbox": {
+        "top": 1974,
+        "right": 3679,
+        "bottom": 2285,
+        "left": 3364
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-5.jpg"
+    },
+    {
+      "id": "6q3a8487-face-6",
+      "photoId": "6q3a8487",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8487.JPG",
+      "bbox": {
+        "top": 1588,
+        "right": 5502,
+        "bottom": 2041,
+        "left": 5048
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8487-face-6.jpg"
+    },
+    {
+      "id": "6q3a8489-face-2",
+      "photoId": "6q3a8489",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+      "bbox": {
+        "top": 1701,
+        "right": 5292,
+        "bottom": 2075,
+        "left": 4918
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-2.jpg"
+    },
+    {
+      "id": "6q3a8489-face-3",
+      "photoId": "6q3a8489",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+      "bbox": {
+        "top": 2041,
+        "right": 4200,
+        "bottom": 2356,
+        "left": 3885
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-3.jpg"
+    },
+    {
+      "id": "6q3a8489-face-6",
+      "photoId": "6q3a8489",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+      "bbox": {
+        "top": 1974,
+        "right": 3087,
+        "bottom": 2285,
+        "left": 2772
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-6.jpg"
+    },
+    {
+      "id": "6q3a8489-face-7",
+      "photoId": "6q3a8489",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8489.JPG",
+      "bbox": {
+        "top": 2117,
+        "right": 3398,
+        "bottom": 2335,
+        "left": 3179
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8489-face-7.jpg"
+    },
+    {
+      "id": "6q3a8491-face-8",
+      "photoId": "6q3a8491",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8491.JPG",
+      "bbox": {
+        "top": 1907,
+        "right": 1781,
+        "bottom": 2285,
+        "left": 1407
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8491-face-8.jpg"
+    },
+    {
+      "id": "6q3a8492-face-1",
+      "photoId": "6q3a8492",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8492.JPG",
+      "bbox": {
+        "top": 1974,
+        "right": 3746,
+        "bottom": 2285,
+        "left": 3436
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8492-face-1.jpg"
+    },
+    {
+      "id": "6q3a8493-face-6",
+      "photoId": "6q3a8493",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+      "bbox": {
+        "top": 2285,
+        "right": 2667,
+        "bottom": 2600,
+        "left": 2352
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-6.jpg"
+    },
+    {
+      "id": "6q3a8493-face-7",
+      "photoId": "6q3a8493",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8493.JPG",
+      "bbox": {
+        "top": 2705,
+        "right": 680,
+        "bottom": 3020,
+        "left": 370
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8493-face-7.jpg"
+    },
+    {
+      "id": "6q3a8494-face-1",
+      "photoId": "6q3a8494",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8494.JPG",
+      "bbox": {
+        "top": 1688,
+        "right": 3041,
+        "bottom": 2142,
+        "left": 2591
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8494-face-1.jpg"
+    },
+    {
+      "id": "6q3a8494-face-2",
+      "photoId": "6q3a8494",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8494.JPG",
+      "bbox": {
+        "top": 1848,
+        "right": 5397,
+        "bottom": 2390,
+        "left": 4855
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8494-face-2.jpg"
+    },
+    {
+      "id": "6q3a8494-face-3",
+      "photoId": "6q3a8494",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8494.JPG",
+      "bbox": {
+        "top": 1365,
+        "right": 6661,
+        "bottom": 1907,
+        "left": 6119
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8494-face-3.jpg"
+    },
+    {
+      "id": "6q3a8496-face-2",
+      "photoId": "6q3a8496",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8496.JPG",
+      "bbox": {
+        "top": 2075,
+        "right": 2491,
+        "bottom": 2453,
+        "left": 2117
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8496-face-2.jpg"
+    },
+    {
+      "id": "6q3a8496-face-3",
+      "photoId": "6q3a8496",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8496.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 3121,
+        "bottom": 2369,
+        "left": 2743
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8496-face-3.jpg"
+    },
+    {
+      "id": "6q3a8496-face-4",
+      "photoId": "6q3a8496",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8496.JPG",
+      "bbox": {
+        "top": 1588,
+        "right": 4847,
+        "bottom": 2041,
+        "left": 4397
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8496-face-4.jpg"
+    },
+    {
+      "id": "6q3a8496-face-5",
+      "photoId": "6q3a8496",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8496.JPG",
+      "bbox": {
+        "top": 1789,
+        "right": 1638,
+        "bottom": 2243,
+        "left": 1184
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8496-face-5.jpg"
+    },
+    {
+      "id": "6q3a8503-face-1",
+      "photoId": "6q3a8503",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8503.JPG",
+      "bbox": {
+        "top": 1856,
+        "right": 3805,
+        "bottom": 2507,
+        "left": 3158
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8503-face-1.jpg"
+    },
+    {
+      "id": "6q3a8504-face-1",
+      "photoId": "6q3a8504",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8504.JPG",
+      "bbox": {
+        "top": 1218,
+        "right": 4460,
+        "bottom": 2344,
+        "left": 3339
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8504-face-1.jpg"
+    },
+    {
+      "id": "6q3a8505-face-1",
+      "photoId": "6q3a8505",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8505.JPG",
+      "bbox": {
+        "top": 1844,
+        "right": 5334,
+        "bottom": 2965,
+        "left": 4213
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8505-face-1.jpg"
+    },
+    {
+      "id": "6q3a8506-face-1",
+      "photoId": "6q3a8506",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8506.JPG",
+      "bbox": {
+        "top": 1537,
+        "right": 2142,
+        "bottom": 2318,
+        "left": 1361
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8506-face-1.jpg"
+    },
+    {
+      "id": "6q3a8506-face-2",
+      "photoId": "6q3a8506",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8506.JPG",
+      "bbox": {
+        "top": 1743,
+        "right": 4343,
+        "bottom": 2680,
+        "left": 3406
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8506-face-2.jpg"
+    },
+    {
+      "id": "6q3a8507-face-2",
+      "photoId": "6q3a8507",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8507.JPG",
+      "bbox": {
+        "top": 1546,
+        "right": 6119,
+        "bottom": 2087,
+        "left": 5578
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8507-face-2.jpg"
+    },
+    {
+      "id": "6q3a8507-face-3",
+      "photoId": "6q3a8507",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8507.JPG",
+      "bbox": {
+        "top": 1848,
+        "right": 3301,
+        "bottom": 2785,
+        "left": 2365
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8507-face-3.jpg"
+    },
+    {
+      "id": "6q3a8509-face-1",
+      "photoId": "6q3a8509",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8509.JPG",
+      "bbox": {
+        "top": 1924,
+        "right": 1050,
+        "bottom": 2142,
+        "left": 836
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8509-face-1.jpg"
+    },
+    {
+      "id": "6q3a8512-face-1",
+      "photoId": "6q3a8512",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8512.JPG",
+      "bbox": {
+        "top": 2356,
+        "right": 3469,
+        "bottom": 2671,
+        "left": 3154
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8512-face-1.jpg"
+    },
+    {
+      "id": "6q3a8512-face-2",
+      "photoId": "6q3a8512",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8512.JPG",
+      "bbox": {
+        "top": 2180,
+        "right": 3226,
+        "bottom": 2495,
+        "left": 2911
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8512-face-2.jpg"
+    },
+    {
+      "id": "6q3a8513-face-2",
+      "photoId": "6q3a8513",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8513.JPG",
+      "bbox": {
+        "top": 2150,
+        "right": 3532,
+        "bottom": 2692,
+        "left": 2990
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8513-face-2.jpg"
+    },
+    {
+      "id": "6q3a8513-face-3",
+      "photoId": "6q3a8513",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8513.JPG",
+      "bbox": {
+        "top": 1205,
+        "right": 4549,
+        "bottom": 1520,
+        "left": 4234
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8513-face-3.jpg"
+    },
+    {
+      "id": "6q3a8513-face-4",
+      "photoId": "6q3a8513",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8513.JPG",
+      "bbox": {
+        "top": 1504,
+        "right": 2062,
+        "bottom": 1684,
+        "left": 1882
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8513-face-4.jpg"
+    },
+    {
+      "id": "6q3a8514-face-1",
+      "photoId": "6q3a8514",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8514.JPG",
+      "bbox": {
+        "top": 2075,
+        "right": 4288,
+        "bottom": 2453,
+        "left": 3914
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8514-face-1.jpg"
+    },
+    {
+      "id": "6q3a8515-face-1",
+      "photoId": "6q3a8515",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8515.JPG",
+      "bbox": {
+        "top": 1949,
+        "right": 4330,
+        "bottom": 2327,
+        "left": 3956
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8515-face-1.jpg"
+    },
+    {
+      "id": "6q3a8521-face-1",
+      "photoId": "6q3a8521",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8521.JPG",
+      "bbox": {
+        "top": 1672,
+        "right": 3902,
+        "bottom": 1823,
+        "left": 3751
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8521-face-1.jpg"
+    },
+    {
+      "id": "6q3a8522-face-1",
+      "photoId": "6q3a8522",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+      "bbox": {
+        "top": 1411,
+        "right": 3877,
+        "bottom": 1672,
+        "left": 3616
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-1.jpg"
+    },
+    {
+      "id": "6q3a8522-face-2",
+      "photoId": "6q3a8522",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+      "bbox": {
+        "top": 1642,
+        "right": 4255,
+        "bottom": 1903,
+        "left": 3994
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-2.jpg"
+    },
+    {
+      "id": "6q3a8522-face-3",
+      "photoId": "6q3a8522",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+      "bbox": {
+        "top": 1802,
+        "right": 932,
+        "bottom": 2020,
+        "left": 714
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-3.jpg"
+    },
+    {
+      "id": "6q3a8522-face-5",
+      "photoId": "6q3a8522",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+      "bbox": {
+        "top": 1604,
+        "right": 5145,
+        "bottom": 1756,
+        "left": 4994
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-5.jpg"
+    },
+    {
+      "id": "6q3a8522-face-6",
+      "photoId": "6q3a8522",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+      "bbox": {
+        "top": 1625,
+        "right": 1970,
+        "bottom": 1936,
+        "left": 1659
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-6.jpg"
+    },
+    {
+      "id": "6q3a8522-face-7",
+      "photoId": "6q3a8522",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8522.JPG",
+      "bbox": {
+        "top": 1844,
+        "right": 2789,
+        "bottom": 2024,
+        "left": 2608
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8522-face-7.jpg"
+    },
+    {
+      "id": "6q3a8525-face-1",
+      "photoId": "6q3a8525",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8525.JPG",
+      "bbox": {
+        "top": 1340,
+        "right": 1235,
+        "bottom": 1789,
+        "left": 785
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8525-face-1.jpg"
+    },
+    {
+      "id": "6q3a8545-face-1",
+      "photoId": "6q3a8545",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8545.JPG",
+      "bbox": {
+        "top": 1659,
+        "right": 6220,
+        "bottom": 1974,
+        "left": 5905
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8545-face-1.jpg"
+    },
+    {
+      "id": "6q3a8548-face-1",
+      "photoId": "6q3a8548",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8548.JPG",
+      "bbox": {
+        "top": 1126,
+        "right": 2751,
+        "bottom": 1667,
+        "left": 2209
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8548-face-1.jpg"
+    },
+    {
+      "id": "6q3a8548-face-2",
+      "photoId": "6q3a8548",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8548.JPG",
+      "bbox": {
+        "top": 1730,
+        "right": 5704,
+        "bottom": 1991,
+        "left": 5443
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8548-face-2.jpg"
+    },
+    {
+      "id": "6q3a8549-face-1",
+      "photoId": "6q3a8549",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8549.JPG",
+      "bbox": {
+        "top": 1491,
+        "right": 2692,
+        "bottom": 1940,
+        "left": 2239
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8549-face-1.jpg"
+    },
+    {
+      "id": "6q3a8549-face-2",
+      "photoId": "6q3a8549",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8549.JPG",
+      "bbox": {
+        "top": 1659,
+        "right": 5594,
+        "bottom": 1974,
+        "left": 5279
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8549-face-2.jpg"
+    },
+    {
+      "id": "6q3a8550-face-3",
+      "photoId": "6q3a8550",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8550.JPG",
+      "bbox": {
+        "top": 1365,
+        "right": 5821,
+        "bottom": 1907,
+        "left": 5279
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8550-face-3.jpg"
+    },
+    {
+      "id": "6q3a8550-face-4",
+      "photoId": "6q3a8550",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8550.JPG",
+      "bbox": {
+        "top": 2075,
+        "right": 4817,
+        "bottom": 2726,
+        "left": 4166
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8550-face-4.jpg"
+    },
+    {
+      "id": "6q3a8551-face-1",
+      "photoId": "6q3a8551",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8551.JPG",
+      "bbox": {
+        "top": 2243,
+        "right": 3394,
+        "bottom": 2692,
+        "left": 2940
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8551-face-1.jpg"
+    },
+    {
+      "id": "6q3a8551-face-2",
+      "photoId": "6q3a8551",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8551.JPG",
+      "bbox": {
+        "top": 1667,
+        "right": 2029,
+        "bottom": 2209,
+        "left": 1487
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8551-face-2.jpg"
+    },
+    {
+      "id": "6q3a8551-face-3",
+      "photoId": "6q3a8551",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8551.JPG",
+      "bbox": {
+        "top": 3541,
+        "right": 5628,
+        "bottom": 3914,
+        "left": 5250
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8551-face-3.jpg"
+    },
+    {
+      "id": "6q3a8551-face-4",
+      "photoId": "6q3a8551",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8551.JPG",
+      "bbox": {
+        "top": 2579,
+        "right": 1709,
+        "bottom": 3360,
+        "left": 928
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8551-face-4.jpg"
+    },
+    {
+      "id": "6q3a8552-face-1",
+      "photoId": "6q3a8552",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8552.JPG",
+      "bbox": {
+        "top": 1873,
+        "right": 3994,
+        "bottom": 2138,
+        "left": 3730
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8552-face-1.jpg"
+    },
+    {
+      "id": "6q3a8556-face-1",
+      "photoId": "6q3a8556",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8556.JPG",
+      "bbox": {
+        "top": 1940,
+        "right": 3545,
+        "bottom": 2394,
+        "left": 3091
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8556-face-1.jpg"
+    },
+    {
+      "id": "6q3a8557-face-1",
+      "photoId": "6q3a8557",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8557.JPG",
+      "bbox": {
+        "top": 1789,
+        "right": 5216,
+        "bottom": 2331,
+        "left": 4675
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-1.jpg"
+    },
+    {
+      "id": "6q3a8557-face-3",
+      "photoId": "6q3a8557",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8557.JPG",
+      "bbox": {
+        "top": 1491,
+        "right": 1688,
+        "bottom": 1940,
+        "left": 1235
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-3.jpg"
+    },
+    {
+      "id": "6q3a8557-face-5",
+      "photoId": "6q3a8557",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8557.JPG",
+      "bbox": {
+        "top": 1936,
+        "right": 2251,
+        "bottom": 2251,
+        "left": 1936
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8557-face-5.jpg"
+    },
+    {
+      "id": "6q3a8558-face-3",
+      "photoId": "6q3a8558",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8558.JPG",
+      "bbox": {
+        "top": 1415,
+        "right": 1554,
+        "bottom": 1730,
+        "left": 1239
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8558-face-3.jpg"
+    },
+    {
+      "id": "6q3a8559-face-1",
+      "photoId": "6q3a8559",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8559.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 2793,
+        "bottom": 2444,
+        "left": 2339
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8559-face-1.jpg"
+    },
+    {
+      "id": "6q3a8560-face-1",
+      "photoId": "6q3a8560",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8560.JPG",
+      "bbox": {
+        "top": 596,
+        "right": 2591,
+        "bottom": 1718,
+        "left": 1466
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8560-face-1.jpg"
+    },
+    {
+      "id": "6q3a8560-face-2",
+      "photoId": "6q3a8560",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8560.JPG",
+      "bbox": {
+        "top": 865,
+        "right": 6107,
+        "bottom": 2213,
+        "left": 4759
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8560-face-2.jpg"
+    },
+    {
+      "id": "6q3a8561-face-1",
+      "photoId": "6q3a8561",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8561.JPG",
+      "bbox": {
+        "top": 1785,
+        "right": 5670,
+        "bottom": 2159,
+        "left": 5292
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-1.jpg"
+    },
+    {
+      "id": "6q3a8561-face-2",
+      "photoId": "6q3a8561",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8561.JPG",
+      "bbox": {
+        "top": 1449,
+        "right": 403,
+        "bottom": 1764,
+        "left": 88
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-2.jpg"
+    },
+    {
+      "id": "6q3a8561-face-3",
+      "photoId": "6q3a8561",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8561.JPG",
+      "bbox": {
+        "top": 1344,
+        "right": 4444,
+        "bottom": 1659,
+        "left": 4129
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-3.jpg"
+    },
+    {
+      "id": "6q3a8561-face-5",
+      "photoId": "6q3a8561",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8561.JPG",
+      "bbox": {
+        "top": 1571,
+        "right": 1718,
+        "bottom": 1722,
+        "left": 1567
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8561-face-5.jpg"
+    },
+    {
+      "id": "6q3a8562-face-1",
+      "photoId": "6q3a8562",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8562.JPG",
+      "bbox": {
+        "top": 3158,
+        "right": 4313,
+        "bottom": 3809,
+        "left": 3662
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8562-face-1.jpg"
+    },
+    {
+      "id": "6q3a8562-face-2",
+      "photoId": "6q3a8562",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8562.JPG",
+      "bbox": {
+        "top": 2390,
+        "right": 2810,
+        "bottom": 2932,
+        "left": 2268
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8562-face-2.jpg"
+    },
+    {
+      "id": "6q3a8563-face-1",
+      "photoId": "6q3a8563",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8563.JPG",
+      "bbox": {
+        "top": 1134,
+        "right": 3952,
+        "bottom": 1785,
+        "left": 3301
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8563-face-1.jpg"
+    },
+    {
+      "id": "6q3a8563-face-3",
+      "photoId": "6q3a8563",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8563.JPG",
+      "bbox": {
+        "top": 462,
+        "right": 2507,
+        "bottom": 1004,
+        "left": 1966
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8563-face-3.jpg"
+    },
+    {
+      "id": "6q3a8565-face-1",
+      "photoId": "6q3a8565",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8565.JPG",
+      "bbox": {
+        "top": 2264,
+        "right": 1949,
+        "bottom": 3200,
+        "left": 1012
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8565-face-1.jpg"
+    },
+    {
+      "id": "6q3a8565-face-2",
+      "photoId": "6q3a8565",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8565.JPG",
+      "bbox": {
+        "top": 2218,
+        "right": 5830,
+        "bottom": 2869,
+        "left": 5179
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8565-face-2.jpg"
+    },
+    {
+      "id": "6q3a8565-face-3",
+      "photoId": "6q3a8565",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8565.JPG",
+      "bbox": {
+        "top": 2268,
+        "right": 4557,
+        "bottom": 2810,
+        "left": 4015
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8565-face-3.jpg"
+    },
+    {
+      "id": "6q3a8565-face-4",
+      "photoId": "6q3a8565",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8565.JPG",
+      "bbox": {
+        "top": 2146,
+        "right": 2663,
+        "bottom": 2923,
+        "left": 1882
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8565-face-4.jpg"
+    },
+    {
+      "id": "6q3a8565-face-5",
+      "photoId": "6q3a8565",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8565.JPG",
+      "bbox": {
+        "top": 1949,
+        "right": 2911,
+        "bottom": 2327,
+        "left": 2533
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8565-face-5.jpg"
+    },
+    {
+      "id": "6q3a8566-face-2",
+      "photoId": "6q3a8566",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8566.JPG",
+      "bbox": {
+        "top": 2810,
+        "right": 823,
+        "bottom": 3352,
+        "left": 281
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-2.jpg"
+    },
+    {
+      "id": "6q3a8566-face-3",
+      "photoId": "6q3a8566",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8566.JPG",
+      "bbox": {
+        "top": 1659,
+        "right": 4750,
+        "bottom": 2033,
+        "left": 4372
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-3.jpg"
+    },
+    {
+      "id": "6q3a8566-face-5",
+      "photoId": "6q3a8566",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8566.JPG",
+      "bbox": {
+        "top": 3415,
+        "right": 3049,
+        "bottom": 3956,
+        "left": 2507
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-5.jpg"
+    },
+    {
+      "id": "6q3a8566-face-6",
+      "photoId": "6q3a8566",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8566.JPG",
+      "bbox": {
+        "top": 676,
+        "right": 6720,
+        "bottom": 857,
+        "left": 6539
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8566-face-6.jpg"
+    },
+    {
+      "id": "6q3a8568-face-1",
+      "photoId": "6q3a8568",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8568.JPG",
+      "bbox": {
+        "top": 2461,
+        "right": 1919,
+        "bottom": 2612,
+        "left": 1768
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8568-face-1.jpg"
+    },
+    {
+      "id": "6q3a8569-face-1",
+      "photoId": "6q3a8569",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8569.JPG",
+      "bbox": {
+        "top": 798,
+        "right": 2146,
+        "bottom": 979,
+        "left": 1961
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8569-face-1.jpg"
+    },
+    {
+      "id": "6q3a8569-face-2",
+      "photoId": "6q3a8569",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8569.JPG",
+      "bbox": {
+        "top": 521,
+        "right": 2650,
+        "bottom": 739,
+        "left": 2432
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8569-face-2.jpg"
+    },
+    {
+      "id": "6q3a8569-face-3",
+      "photoId": "6q3a8569",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8569.JPG",
+      "bbox": {
+        "top": 277,
+        "right": 4070,
+        "bottom": 428,
+        "left": 3919
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8569-face-3.jpg"
+    },
+    {
+      "id": "6q3a8569-face-4",
+      "photoId": "6q3a8569",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8569.JPG",
+      "bbox": {
+        "top": 655,
+        "right": 4040,
+        "bottom": 836,
+        "left": 3860
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8569-face-4.jpg"
+    },
+    {
+      "id": "6q3a8571-face-1",
+      "photoId": "6q3a8571",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 3444,
+        "bottom": 2444,
+        "left": 2990
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-1.jpg"
+    },
+    {
+      "id": "6q3a8571-face-4",
+      "photoId": "6q3a8571",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 6254,
+        "bottom": 2369,
+        "left": 5880
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-4.jpg"
+    },
+    {
+      "id": "6q3a8571-face-6",
+      "photoId": "6q3a8571",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+      "bbox": {
+        "top": 1970,
+        "right": 2507,
+        "bottom": 2512,
+        "left": 1966
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-6.jpg"
+    },
+    {
+      "id": "6q3a8571-face-7",
+      "photoId": "6q3a8571",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8571.JPG",
+      "bbox": {
+        "top": 2096,
+        "right": 3713,
+        "bottom": 2310,
+        "left": 3494
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8571-face-7.jpg"
+    },
+    {
+      "id": "6q3a8572-face-1",
+      "photoId": "6q3a8572",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8572.JPG",
+      "bbox": {
+        "top": 1907,
+        "right": 5099,
+        "bottom": 2449,
+        "left": 4557
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8572-face-1.jpg"
+    },
+    {
+      "id": "6q3a8572-face-2",
+      "photoId": "6q3a8572",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8572.JPG",
+      "bbox": {
+        "top": 1726,
+        "right": 4313,
+        "bottom": 2268,
+        "left": 3772
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8572-face-2.jpg"
+    },
+    {
+      "id": "6q3a8572-face-3",
+      "photoId": "6q3a8572",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8572.JPG",
+      "bbox": {
+        "top": 1907,
+        "right": 3473,
+        "bottom": 2449,
+        "left": 2932
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8572-face-3.jpg"
+    },
+    {
+      "id": "6q3a8573-face-1",
+      "photoId": "6q3a8573",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8573.JPG",
+      "bbox": {
+        "top": 1168,
+        "right": 4339,
+        "bottom": 1319,
+        "left": 4187
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8573-face-1.jpg"
+    },
+    {
+      "id": "6q3a8573-face-2",
+      "photoId": "6q3a8573",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8573.JPG",
+      "bbox": {
+        "top": 1487,
+        "right": 5141,
+        "bottom": 1798,
+        "left": 4826
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8573-face-2.jpg"
+    },
+    {
+      "id": "6q3a8574-face-1",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1693,
+        "right": 3154,
+        "bottom": 2008,
+        "left": 2843
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-1.jpg"
+    },
+    {
+      "id": "6q3a8574-face-10",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 2159,
+        "right": 2365,
+        "bottom": 2537,
+        "left": 1991
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-10.jpg"
+    },
+    {
+      "id": "6q3a8574-face-2",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1760,
+        "right": 4049,
+        "bottom": 2020,
+        "left": 3788
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-2.jpg"
+    },
+    {
+      "id": "6q3a8574-face-5",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1491,
+        "right": 3881,
+        "bottom": 1705,
+        "left": 3662
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-5.jpg"
+    },
+    {
+      "id": "6q3a8574-face-6",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1462,
+        "right": 4343,
+        "bottom": 1642,
+        "left": 4162
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-6.jpg"
+    },
+    {
+      "id": "6q3a8574-face-7",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1873,
+        "right": 798,
+        "bottom": 2138,
+        "left": 538
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-7.jpg"
+    },
+    {
+      "id": "6q3a8574-face-8",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1420,
+        "right": 2860,
+        "bottom": 1571,
+        "left": 2709
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-8.jpg"
+    },
+    {
+      "id": "6q3a8574-face-9",
+      "photoId": "6q3a8574",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8574.JPG",
+      "bbox": {
+        "top": 1907,
+        "right": 1323,
+        "bottom": 2285,
+        "left": 945
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8574-face-9.jpg"
+    },
+    {
+      "id": "6q3a8576-face-1",
+      "photoId": "6q3a8576",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8576.JPG",
+      "bbox": {
+        "top": 2457,
+        "right": 3935,
+        "bottom": 2717,
+        "left": 3675
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8576-face-1.jpg"
+    },
+    {
+      "id": "6q3a8576-face-2",
+      "photoId": "6q3a8576",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8576.JPG",
+      "bbox": {
+        "top": 2050,
+        "right": 5006,
+        "bottom": 2310,
+        "left": 4746
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8576-face-2.jpg"
+    },
+    {
+      "id": "6q3a8576-face-3",
+      "photoId": "6q3a8576",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8576.JPG",
+      "bbox": {
+        "top": 1945,
+        "right": 1016,
+        "bottom": 2125,
+        "left": 836
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8576-face-3.jpg"
+    },
+    {
+      "id": "6q3a8576-face-4",
+      "photoId": "6q3a8576",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8576.JPG",
+      "bbox": {
+        "top": 2566,
+        "right": 1378,
+        "bottom": 2877,
+        "left": 1067
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8576-face-4.jpg"
+    },
+    {
+      "id": "6q3a8577-face-1",
+      "photoId": "6q3a8577",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8577.JPG",
+      "bbox": {
+        "top": 2692,
+        "right": 3293,
+        "bottom": 3146,
+        "left": 2843
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8577-face-1.jpg"
+    },
+    {
+      "id": "6q3a8577-face-2",
+      "photoId": "6q3a8577",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8577.JPG",
+      "bbox": {
+        "top": 3146,
+        "right": 3293,
+        "bottom": 3595,
+        "left": 2843
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8577-face-2.jpg"
+    },
+    {
+      "id": "6q3a8578-face-1",
+      "photoId": "6q3a8578",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8578.JPG",
+      "bbox": {
+        "top": 2751,
+        "right": 3171,
+        "bottom": 3293,
+        "left": 2629
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8578-face-1.jpg"
+    },
+    {
+      "id": "6q3a8585-face-1",
+      "photoId": "6q3a8585",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8585.JPG",
+      "bbox": {
+        "top": 2167,
+        "right": 3646,
+        "bottom": 2428,
+        "left": 3381
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8585-face-1.jpg"
+    },
+    {
+      "id": "6q3a8585-face-2",
+      "photoId": "6q3a8585",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8585.JPG",
+      "bbox": {
+        "top": 2096,
+        "right": 3179,
+        "bottom": 2310,
+        "left": 2961
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8585-face-2.jpg"
+    },
+    {
+      "id": "6q3a8585-face-3",
+      "photoId": "6q3a8585",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8585.JPG",
+      "bbox": {
+        "top": 2167,
+        "right": 1756,
+        "bottom": 2428,
+        "left": 1495
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8585-face-3.jpg"
+    },
+    {
+      "id": "6q3a8586-face-1",
+      "photoId": "6q3a8586",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8586.JPG",
+      "bbox": {
+        "top": 1617,
+        "right": 1655,
+        "bottom": 1991,
+        "left": 1281
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8586-face-1.jpg"
+    },
+    {
+      "id": "6q3a8586-face-2",
+      "photoId": "6q3a8586",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8586.JPG",
+      "bbox": {
+        "top": 1621,
+        "right": 4204,
+        "bottom": 1772,
+        "left": 4053
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8586-face-2.jpg"
+    },
+    {
+      "id": "6q3a8586-face-3",
+      "photoId": "6q3a8586",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8586.JPG",
+      "bbox": {
+        "top": 1789,
+        "right": 861,
+        "bottom": 1940,
+        "left": 710
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8586-face-3.jpg"
+    },
+    {
+      "id": "6q3a8589-face-2",
+      "photoId": "6q3a8589",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8589.JPG",
+      "bbox": {
+        "top": 1886,
+        "right": 4742,
+        "bottom": 2663,
+        "left": 3965
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8589-face-2.jpg"
+    },
+    {
+      "id": "6q3a8591-face-2",
+      "photoId": "6q3a8591",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8591.JPG",
+      "bbox": {
+        "top": 1315,
+        "right": 1163,
+        "bottom": 2663,
+        "left": 0
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8591-face-2.jpg"
+    },
+    {
+      "id": "6q3a8593-face-1",
+      "photoId": "6q3a8593",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8593.JPG",
+      "bbox": {
+        "top": 1306,
+        "right": 3713,
+        "bottom": 1848,
+        "left": 3171
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8593-face-1.jpg"
+    },
+    {
+      "id": "6q3a8597-face-1",
+      "photoId": "6q3a8597",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8597.JPG",
+      "bbox": {
+        "top": 2159,
+        "right": 3620,
+        "bottom": 2537,
+        "left": 3242
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8597-face-1.jpg"
+    },
+    {
+      "id": "6q3a8597-face-2",
+      "photoId": "6q3a8597",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8597.JPG",
+      "bbox": {
+        "top": 2024,
+        "right": 1919,
+        "bottom": 2176,
+        "left": 1768
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8597-face-2.jpg"
+    },
+    {
+      "id": "6q3a8598-face-4",
+      "photoId": "6q3a8598",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8598.JPG",
+      "bbox": {
+        "top": 2226,
+        "right": 6573,
+        "bottom": 2377,
+        "left": 6422
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8598-face-4.jpg"
+    },
+    {
+      "id": "6q3a8599-face-1",
+      "photoId": "6q3a8599",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8599.JPG",
+      "bbox": {
+        "top": 1588,
+        "right": 2944,
+        "bottom": 1903,
+        "left": 2633
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8599-face-1.jpg"
+    },
+    {
+      "id": "6q3a8600-face-2",
+      "photoId": "6q3a8600",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8600.JPG",
+      "bbox": {
+        "top": 1365,
+        "right": 5502,
+        "bottom": 1743,
+        "left": 5124
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8600-face-2.jpg"
+    },
+    {
+      "id": "6q3a8601-face-1",
+      "photoId": "6q3a8601",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8601.JPG",
+      "bbox": {
+        "top": 1449,
+        "right": 3184,
+        "bottom": 2230,
+        "left": 2402
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8601-face-1.jpg"
+    },
+    {
+      "id": "6q3a8603-face-1",
+      "photoId": "6q3a8603",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8603.JPG",
+      "bbox": {
+        "top": 1609,
+        "right": 2932,
+        "bottom": 2150,
+        "left": 2390
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8603-face-1.jpg"
+    },
+    {
+      "id": "6q3a8604-face-1",
+      "photoId": "6q3a8604",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8604.JPG",
+      "bbox": {
+        "top": 1827,
+        "right": 3326,
+        "bottom": 2201,
+        "left": 2953
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8604-face-1.jpg"
+    },
+    {
+      "id": "6q3a8604-face-3",
+      "photoId": "6q3a8604",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8604.JPG",
+      "bbox": {
+        "top": 1151,
+        "right": 2423,
+        "bottom": 1411,
+        "left": 2163
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8604-face-3.jpg"
+    },
+    {
+      "id": "6q3a8605-face-1",
+      "photoId": "6q3a8605",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8605.JPG",
+      "bbox": {
+        "top": 2444,
+        "right": 4746,
+        "bottom": 2894,
+        "left": 4297
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-1.jpg"
+    },
+    {
+      "id": "6q3a8605-face-3",
+      "photoId": "6q3a8605",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8605.JPG",
+      "bbox": {
+        "top": 2633,
+        "right": 5141,
+        "bottom": 2948,
+        "left": 4826
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-3.jpg"
+    },
+    {
+      "id": "6q3a8605-face-4",
+      "photoId": "6q3a8605",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8605.JPG",
+      "bbox": {
+        "top": 2041,
+        "right": 533,
+        "bottom": 2491,
+        "left": 84
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8605-face-4.jpg"
+    },
+    {
+      "id": "6q3a8606-face-1",
+      "photoId": "6q3a8606",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8606.JPG",
+      "bbox": {
+        "top": 3095,
+        "right": 4456,
+        "bottom": 3356,
+        "left": 4196
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-1.jpg"
+    },
+    {
+      "id": "6q3a8606-face-2",
+      "photoId": "6q3a8606",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8606.JPG",
+      "bbox": {
+        "top": 2079,
+        "right": 3788,
+        "bottom": 2339,
+        "left": 3528
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-2.jpg"
+    },
+    {
+      "id": "6q3a8606-face-4",
+      "photoId": "6q3a8606",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8606.JPG",
+      "bbox": {
+        "top": 2428,
+        "right": 2352,
+        "bottom": 2738,
+        "left": 2041
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-4.jpg"
+    },
+    {
+      "id": "6q3a8606-face-5",
+      "photoId": "6q3a8606",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8606.JPG",
+      "bbox": {
+        "top": 2360,
+        "right": 2894,
+        "bottom": 2512,
+        "left": 2743
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-5.jpg"
+    },
+    {
+      "id": "6q3a8606-face-6",
+      "photoId": "6q3a8606",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8606.JPG",
+      "bbox": {
+        "top": 1974,
+        "right": 3885,
+        "bottom": 2125,
+        "left": 3734
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8606-face-6.jpg"
+    },
+    {
+      "id": "6q3a8609-face-1",
+      "photoId": "6q3a8609",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8609.JPG",
+      "bbox": {
+        "top": 2327,
+        "right": 3326,
+        "bottom": 2705,
+        "left": 2953
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8609-face-1.jpg"
+    },
+    {
+      "id": "6q3a8609-face-2",
+      "photoId": "6q3a8609",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8609.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 1961,
+        "bottom": 2251,
+        "left": 1701
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8609-face-2.jpg"
+    },
+    {
+      "id": "6q3a8609-face-3",
+      "photoId": "6q3a8609",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8609.JPG",
+      "bbox": {
+        "top": 2310,
+        "right": 5531,
+        "bottom": 2461,
+        "left": 5380
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8609-face-3.jpg"
+    },
+    {
+      "id": "6q3a8609-face-4",
+      "photoId": "6q3a8609",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8609.JPG",
+      "bbox": {
+        "top": 2990,
+        "right": 4255,
+        "bottom": 3532,
+        "left": 3713
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8609-face-4.jpg"
+    },
+    {
+      "id": "6q3a8609-face-5",
+      "photoId": "6q3a8609",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8609.JPG",
+      "bbox": {
+        "top": 1819,
+        "right": 2743,
+        "bottom": 2079,
+        "left": 2482
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8609-face-5.jpg"
+    },
+    {
+      "id": "6q3a8611-face-1",
+      "photoId": "6q3a8611",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8611.JPG",
+      "bbox": {
+        "top": 1869,
+        "right": 4271,
+        "bottom": 2180,
+        "left": 3956
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8611-face-1.jpg"
+    },
+    {
+      "id": "6q3a8611-face-2",
+      "photoId": "6q3a8611",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8611.JPG",
+      "bbox": {
+        "top": 1613,
+        "right": 2659,
+        "bottom": 1873,
+        "left": 2394
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8611-face-2.jpg"
+    },
+    {
+      "id": "6q3a8611-face-3",
+      "photoId": "6q3a8611",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8611.JPG",
+      "bbox": {
+        "top": 1634,
+        "right": 3469,
+        "bottom": 1852,
+        "left": 3255
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8611-face-3.jpg"
+    },
+    {
+      "id": "6q3a8611-face-4",
+      "photoId": "6q3a8611",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8611.JPG",
+      "bbox": {
+        "top": 2797,
+        "right": 4528,
+        "bottom": 3448,
+        "left": 3881
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8611-face-4.jpg"
+    },
+    {
+      "id": "6q3a8611-face-5",
+      "photoId": "6q3a8611",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8611.JPG",
+      "bbox": {
+        "top": 2045,
+        "right": 6460,
+        "bottom": 2226,
+        "left": 6279
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8611-face-5.jpg"
+    },
+    {
+      "id": "6q3a8611-face-6",
+      "photoId": "6q3a8611",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8611.JPG",
+      "bbox": {
+        "top": 1575,
+        "right": 403,
+        "bottom": 1949,
+        "left": 25
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8611-face-6.jpg"
+    },
+    {
+      "id": "6q3a8613-face-1",
+      "photoId": "6q3a8613",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8613.JPG",
+      "bbox": {
+        "top": 2058,
+        "right": 3007,
+        "bottom": 2839,
+        "left": 2230
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8613-face-1.jpg"
+    },
+    {
+      "id": "6q3a8613-face-2",
+      "photoId": "6q3a8613",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8613.JPG",
+      "bbox": {
+        "top": 1798,
+        "right": 1709,
+        "bottom": 2579,
+        "left": 928
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8613-face-2.jpg"
+    },
+    {
+      "id": "6q3a8613-face-3",
+      "photoId": "6q3a8613",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8613.JPG",
+      "bbox": {
+        "top": 1441,
+        "right": 4347,
+        "bottom": 1890,
+        "left": 3893
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8613-face-3.jpg"
+    },
+    {
+      "id": "6q3a8614-face-1",
+      "photoId": "6q3a8614",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8614.JPG",
+      "bbox": {
+        "top": 1940,
+        "right": 4549,
+        "bottom": 2394,
+        "left": 4095
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8614-face-1.jpg"
+    },
+    {
+      "id": "6q3a8614-face-2",
+      "photoId": "6q3a8614",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8614.JPG",
+      "bbox": {
+        "top": 2390,
+        "right": 2075,
+        "bottom": 2705,
+        "left": 1760
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8614-face-2.jpg"
+    },
+    {
+      "id": "6q3a8614-face-3",
+      "photoId": "6q3a8614",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8614.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 609,
+        "bottom": 2369,
+        "left": 235
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8614-face-3.jpg"
+    },
+    {
+      "id": "6q3a8614-face-4",
+      "photoId": "6q3a8614",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8614.JPG",
+      "bbox": {
+        "top": 1638,
+        "right": 4305,
+        "bottom": 1789,
+        "left": 4154
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8614-face-4.jpg"
+    },
+    {
+      "id": "6q3a8614-face-5",
+      "photoId": "6q3a8614",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8614.JPG",
+      "bbox": {
+        "top": 1991,
+        "right": 3595,
+        "bottom": 2444,
+        "left": 3142
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8614-face-5.jpg"
+    },
+    {
+      "id": "6q3a8616-face-1",
+      "photoId": "6q3a8616",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8616.JPG",
+      "bbox": {
+        "top": 2146,
+        "right": 3314,
+        "bottom": 2327,
+        "left": 3133
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8616-face-1.jpg"
+    },
+    {
+      "id": "6q3a8616-face-2",
+      "photoId": "6q3a8616",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8616.JPG",
+      "bbox": {
+        "top": 1764,
+        "right": 4120,
+        "bottom": 1945,
+        "left": 3940
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8616-face-2.jpg"
+    },
+    {
+      "id": "6q3a8616-face-3",
+      "photoId": "6q3a8616",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8616.JPG",
+      "bbox": {
+        "top": 2045,
+        "right": 3595,
+        "bottom": 2226,
+        "left": 3415
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8616-face-3.jpg"
+    },
+    {
+      "id": "6q3a8616-face-4",
+      "photoId": "6q3a8616",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8616.JPG",
+      "bbox": {
+        "top": 2339,
+        "right": 1642,
+        "bottom": 2600,
+        "left": 1378
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8616-face-4.jpg"
+    },
+    {
+      "id": "6q3a8619-face-1",
+      "photoId": "6q3a8619",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8619.JPG",
+      "bbox": {
+        "top": 1533,
+        "right": 3507,
+        "bottom": 2470,
+        "left": 2575
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8619-face-1.jpg"
+    },
+    {
+      "id": "6q3a8619-face-2",
+      "photoId": "6q3a8619",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8619.JPG",
+      "bbox": {
+        "top": 1210,
+        "right": 5179,
+        "bottom": 1856,
+        "left": 4528
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8619-face-2.jpg"
+    },
+    {
+      "id": "6q3a8622-face-1",
+      "photoId": "6q3a8622",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8622.JPG",
+      "bbox": {
+        "top": 2318,
+        "right": 4049,
+        "bottom": 3100,
+        "left": 3268
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8622-face-1.jpg"
+    },
+    {
+      "id": "6q3a8622-face-3",
+      "photoId": "6q3a8622",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8622.JPG",
+      "bbox": {
+        "top": 2642,
+        "right": 6203,
+        "bottom": 3095,
+        "left": 5750
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8622-face-3.jpg"
+    },
+    {
+      "id": "6q3a8623-face-1",
+      "photoId": "6q3a8623",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8623.JPG",
+      "bbox": {
+        "top": 2146,
+        "right": 3877,
+        "bottom": 2923,
+        "left": 3095
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8623-face-1.jpg"
+    },
+    {
+      "id": "6q3a8627-face-1",
+      "photoId": "6q3a8627",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8627.JPG",
+      "bbox": {
+        "top": 1840,
+        "right": 2743,
+        "bottom": 2293,
+        "left": 2289
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8627-face-1.jpg"
+    },
+    {
+      "id": "6q3a8627-face-2",
+      "photoId": "6q3a8627",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8627.JPG",
+      "bbox": {
+        "top": 1869,
+        "right": 4582,
+        "bottom": 2243,
+        "left": 4204
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8627-face-2.jpg"
+    },
+    {
+      "id": "6q3a8627-face-3",
+      "photoId": "6q3a8627",
+      "photoPath": "/Users/toni/galleryface/Gallery/6Q3A8627.JPG",
+      "bbox": {
+        "top": 1659,
+        "right": 5107,
+        "bottom": 1974,
+        "left": 4792
+      },
+      "thumbnailPath": "/Users/toni/galleryface/60thface/pipeline/output/face-crops/6q3a8627-face-3.jpg"
+    }
+  ],
+  "failures": []
+}

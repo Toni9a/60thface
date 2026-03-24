@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { getPeopleGalleryData } from "../../lib/data";
+import { buildFaceCropUrl } from "../../lib/image-source";
 
 export const dynamic = "force-dynamic";
 
@@ -29,9 +30,7 @@ export default async function PeopleGalleryPage() {
             <div className="directory-photo">
               {person.preview ? (
                 <img
-                  src={`/api/face-crop?path=${encodeURIComponent(
-                    person.preview.photoPath,
-                  )}&top=${person.preview.bbox.top}&right=${person.preview.bbox.right}&bottom=${person.preview.bbox.bottom}&left=${person.preview.bbox.left}`}
+                  src={buildFaceCropUrl(person.preview)}
                   alt={person.name}
                 />
               ) : (

@@ -4,17 +4,23 @@ import { NextRequest } from "next/server";
 
 export async function GET(request: NextRequest) {
   const path = request.nextUrl.searchParams.get("path");
+  const src = request.nextUrl.searchParams.get("src");
   const top = Number(request.nextUrl.searchParams.get("top"));
   const right = Number(request.nextUrl.searchParams.get("right"));
   const bottom = Number(request.nextUrl.searchParams.get("bottom"));
   const left = Number(request.nextUrl.searchParams.get("left"));
 
-  if (!path || [top, right, bottom, left].some((value) => Number.isNaN(value))) {
+  if (
+    (!path && !src) ||
+    [top, right, bottom, left].some((value) => Number.isNaN(value))
+  ) {
     return new Response("Missing crop parameters", { status: 400 });
   }
 
   try {
-    const input = await readFile(path);
+    const input = path
+      ? await readFile(path)
+      : Buffer.from(await (await fetch(src as string)).arrayBuffer());
     const width = Math.max(1, right - left);
     const height = Math.max(1, bottom - top);
     const buffer = await sharp(input)

@@ -29,6 +29,20 @@ export default async function PeoplePage({
         >
           Duplicate Suggestions
         </Link>
+        <Link
+          href="/people-summary"
+          className="hero-link"
+          style={{ color: "var(--brand-deep)" }}
+        >
+          All Names
+        </Link>
+        <Link
+          href="/people-unnamed"
+          className="hero-link"
+          style={{ color: "var(--brand-deep)" }}
+        >
+          Unnamed Faces
+        </Link>
       </section>
       <PeopleManager initialPeople={data.people} initialQuery={initialQuery} />
     </main>

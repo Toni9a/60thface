@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { buildFaceCropUrl } from "../../lib/image-source";
 
 export type AdminPerson = {
   id: string;
@@ -114,9 +115,10 @@ export function PeopleEditor({
             <div className="thumb-frame" style={{ position: "relative" }}>
               {photo.photoPath && photo.bbox ? (
                 <img
-                  src={`/api/face-crop?path=${encodeURIComponent(
-                    photo.photoPath,
-                  )}&top=${photo.bbox.top}&right=${photo.bbox.right}&bottom=${photo.bbox.bottom}&left=${photo.bbox.left}`}
+                  src={buildFaceCropUrl({
+                    photoPath: photo.photoPath,
+                    bbox: photo.bbox,
+                  })}
                   alt={photo.photoId}
                 />
               ) : (
